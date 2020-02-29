@@ -2,44 +2,37 @@
 @model Hackathon.Feature.StandardContent.ViewModels.FaqListViewModel
 
 <section id="content">
-      <div class="container">
+    <div class="container">
         <div class="row">
 
-          <div class="span12">
-            <h4 class="title"><strong>Questions</strong> </h4>
-            <!-- start: Accordion -->
-            <div class="accordion" id="accordion2">
-                @{ 
-                    var counter = 0;
-                }
+            <div class="span12">
+                <h4 class="title"><strong>Questions</strong> </h4>
+                <!-- start: Accordion -->
+                <div class="accordion" id="accordion2">
+                    @{
+                        var counter = 0;
+                    }
 
-                @foreach (var faq in Model.Faqs)
-                {
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="@string.Format("#collapse{0}",@counter)">
-                                <i class="icon-plus"></i> @faq.Question
-                            </a>
-                        </div>
-                        <div id="@string.Format("collapse{0}",@counter)" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                @faq.Answer
+                    @foreach (var faq in Model.Faqs)
+                    {
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="@string.Format("#collapse{0}", @counter)">
+                                    <i class="icon-plus"></i> @faq.Question
+                                </a>
+                            </div>
+                            <div id="@string.Format("collapse{0}", @counter)" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    @faq.Answer
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    counter++;
-                }
-                
+                        counter++;
+                    }
+
+                </div>
             </div>
-            <!--end: Accordion -->
-
-            @*<div class="blankline30"></div>
-            <div class="solidline"></div>
-            <div class="blankline20"></div>*@
-
-          </div>
-
         </div>
-      </div>
-    </section>
+    </div>
+</section>
