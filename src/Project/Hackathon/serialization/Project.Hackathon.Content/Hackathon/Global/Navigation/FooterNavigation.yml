@@ -1,0 +1,27 @@
+﻿---
+ID: "de49805c-67d6-4bf2-89de-7e1f2b67f3fe"
+Parent: "42fb8c0f-e027-47c3-9eeb-eaafe70baa2f"
+Template: "1ee09b66-f50e-44db-81c6-919723003527"
+Path: /sitecore/content/Hackathon/Global/Navigation/FooterNavigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100819Z
+    - ID: "4f7d4b1c-e6d3-423a-827e-214f09e9c8ec"
+      Hint: Links
+      Type: Multilist
+      Value: |
+        {9245D32C-9ABF-45BF-A488-16EAFC51503F}
+        {613F1BEC-69AC-4AEC-8B47-43B1897F6A75}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c1745165-d2ba-45b0-bc4b-88247418f9c7"
+      Hint: Copyright Text
+      Value: Hackathon 2020

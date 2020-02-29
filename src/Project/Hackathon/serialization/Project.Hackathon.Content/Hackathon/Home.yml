@@ -18,28 +18,12 @@ SharedFields:
     <r xmlns:p="p" xmlns:s="s"
       p:p="1">
       <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        s:l="{CD1590E1-6573-4CC7-B0A9-E3BB6A9DADE4}">
-        <r
-          uid="{43222D12-08C9-453B-AE96-D406EBB95126}">
-          <p:d />
-        </r>
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <p
           uid="{498BDDC8-091D-4F1C-9895-78F658BCA4FF}"
+          p:before="*"
           s:key="main"
-          s:md="/sitecore/layout/Placeholder Settings/Project/Hackathon/Main" />
-        <r
-          uid="{CF044AD9-0332-407A-ABDE-587214A2C808}">
-          <p:d />
-        </r>
-        <r
-          uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}">
-          <p:d />
-        </r>
-      </d>
-      <d
-        id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}">
-        <p:d />
+          s:md="{B9AE5A80-B0ED-4E40-AA4E-E3FFE1255ED8}" />
       </d>
     </r>
 Languages:
@@ -85,6 +69,6 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
-    - ID: "75577384-3c97-45da-a847-81b00500e250"
-      Hint: Title
+    - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
+      Hint: Navigation Title
       Value: Home
