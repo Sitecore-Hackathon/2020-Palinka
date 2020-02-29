@@ -1,0 +1,36 @@
+﻿---
+ID: "6dce3d00-2ac3-48fa-a8d4-1f3f99f3b905"
+Parent: "87f42a26-6d40-4bed-94e3-7e3e70fd6836"
+Template: "1a7e19d6-7d24-410b-8fd6-4dabd3a6ac13"
+Path: /sitecore/content/Hackathon/Home/Components/Text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T222026Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "f43d41b9-c1a8-4b0b-9c47-cb09cd05e37e"
+      Hint: Text
+      Value: |
+        <div class="row">
+        
+                  <div class="span12">
+                    <h4>Welcome to Sitecore Hackathon Site!</h4>
+                    <p>
+                      Ei mel semper vocent persequeris, nominavi patrioque vituperata id vim, cu eam gloriatur philosophia deterruisset. Meliore perfecto repudiare ea nam, ne mea duis temporibus. Id quo accusam consequuntur, eum ea debitis urbanitas. Nibh reformidans vim ne.
+                    </p>
+                    <blockquote>
+                      Iudico definiebas eos ea, dicat inermis hendrerit vel ei, legimus copiosae quo at. Per utinam corrumpit prodesset te, liber praesent eos an. An prodesset neglegentur qui, usu ancillae posidonium in, mea ex eros animal scribentur. Et simul fabellas sit.
+                      Populo inimicus ne est.
+                    </blockquote>
+        
+                  </div>
+        
+                </div>

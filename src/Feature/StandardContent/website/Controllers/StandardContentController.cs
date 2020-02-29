@@ -1,6 +1,7 @@
 namespace Hackathon.Feature.StandardContent.Controllers
 {
     using Hackathon.Feature.StandardContent.Models;
+    using Hackathon.Feature.StandardContent.ViewModels;
     using Hackathon.Foundation.Content.Repositories;
     using Hackathon.Foundation.ORM.Models;
     using Sitecore.Mvc.Controllers;
@@ -40,6 +41,24 @@ namespace Hackathon.Feature.StandardContent.Controllers
         {
             var model = contextRepository.GetCurrentItem<IPrizes>();
             return View(model);
+        }
+
+        public ActionResult TestimonialSlider()
+        {
+            var model = renderingRepository.GetRenderingItem<ITestimonialSource>();
+            return View(model);
+        }
+
+        public ActionResult Sponsors()
+        {
+            var sponsorFolder = renderingRepository.GetDataSourceItem<ISponsors>();
+
+            SponsorsViewModel sponsorsViewModel = new SponsorsViewModel()
+            {
+                Sponsors = sponsorFolder.Sponsors
+            };
+
+            return View(sponsorsViewModel);
         }
     }
 }

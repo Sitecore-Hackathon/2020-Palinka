@@ -1,0 +1,28 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.StandardContent.Models.ITestimonialSource
+
+<div class="row">   
+    <div class="span8">
+        <h4>Testimonial slider</h4>
+        <ul class="bxslider">
+            @foreach (var testimonial in Model.Testimonials)
+            {
+                <li>
+                    <blockquote>
+                        @testimonial.Quote
+                    </blockquote>
+                    <div class="testimonial-autor">
+                        @if (testimonial.Image != null)
+                        {
+                            <img src="@testimonial.Image.Src" alt="" />
+                        }
+
+                        <h4>@testimonial.NameField</h4>
+                        <a>@testimonial.SubText</a>
+                    </div>
+                </li>
+            }
+        </ul>
+
+    </div>
+</div>

@@ -12,7 +12,18 @@ Languages:
     - ID: "01e07abd-bb4b-4dc5-8b52-b57c70e30c05"
       Hint: Pinterest Widget
       Value: |
-        <!--<div id="ultimatepinterestdisplaywidget-2" class="widget widget_ultimatepinterestdisplaywidget"><div class="widget-title">Ultimate Pinterest Display Widget</div><div id='ultimate-pinterest-display-widget' class=''><a data-pin-do='embedBoard' href='https://www.pinterest.com/akshaysura/sitecore-hackathon-2018/' data-pin-scale-width='92' data-pin-scale-height='175' data-pin-board-width='300'>Follow Pinterest's board Pin pets on Pinterest.</a><div class='copy' style='color:#ccc; font-size: 9px; '><a href='http://www.expressmedrefills.com/' title='Click here' target='_blank'>Online Doctor</a></div></div><script type='text/javascript' async src='//assets.pinterest.com/js/pinit.js'></div>			-->
+        <div class="widget">
+                      <h5 class="widgetheading">Subscribe newsletter</h5>
+                      <p>
+                        Keep updated for new releases and freebies. Enter your e-mail and subscribe to our newsletter.
+                      </p>
+                      <form class="subscribe">
+                        <div class="input-append">
+                          <input class="span2" id="appendedInputButton" type="text">
+                          <button class="btn btn-theme" type="submit">Subscribe</button>
+                        </div>
+                      </form>
+                    </div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T100819Z

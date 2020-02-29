@@ -1,0 +1,27 @@
+﻿---
+ID: "9fe8db6d-aad1-4bf6-b285-f45811313314"
+Parent: "028a7d0b-5587-49c1-8dff-a677e8e812e0"
+Template: "b0514bdb-effa-419e-8253-156cd6e903d6"
+Path: /sitecore/content/Hackathon/Global/Testimonials/Testimonial
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T212701Z
+    - ID: "2fc5f1f7-31bf-4ebf-9f49-509b62603307"
+      Hint: Name
+      Value: John Doe
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "709e5faf-06f7-41c0-bb43-875a78d8528d"
+      Hint: Sub Text
+      Value: Awesome
+    - ID: "71ad4337-1de2-440d-b95f-50ba421aaef7"
+      Hint: Quote
+      Value: Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat  Marry Doe Elliot www.companyname.com Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat

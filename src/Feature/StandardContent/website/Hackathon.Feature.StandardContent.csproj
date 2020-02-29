@@ -7,6 +7,16 @@
 	  <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Routes\**" />
+    <Compile Remove="Services\**" />
+    <Content Remove="Routes\**" />
+    <Content Remove="Services\**" />
+    <EmbeddedResource Remove="Routes\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Routes\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Remove="Views\web.config" />
     <Content Remove="Web.config" />
     <Content Remove="Web.Debug.config" />
@@ -39,13 +49,11 @@
     <ProjectReference Include="..\..\..\Foundation\Search\website\Hackathon.Foundation.Search.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Routes\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Update="Views\Faq\FaqList.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
-    <Folder Include="ViewModels\" />
+    <Content Update="Views\StandardContent\Sponsors.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 </Project>

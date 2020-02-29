@@ -1,0 +1,52 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.StandardContent.ViewModels.SponsorsViewModel
+
+<section id="inner-headline">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="inner-heading">
+                    <h2>Sponsors</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="clearfix"></div>
+                <div class="row">
+                    <section id="projects">
+                        <ul id="thumbs" class="grid cs-style-4 portfolio">
+
+                            @foreach (var sponsor in Model.Sponsors)
+                            {
+                                <li class="item-thumbs span4 design" data-id="id-0" data-type="web">
+                                    <div class="item">
+                                        <figure>
+                                            <div>@Html.Glass().RenderImage(sponsor, x => x.SmallImage, isEditable: true)</div>
+                                            <figcaption>
+                                                <div>
+                                                    <span>
+                                                        <a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
+                                                    </span>
+                                                    <span>
+                                                        <a href="#"><i class="icon-file icon-circled icon-bglight icon-2x"></i></a>
+                                                    </span>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

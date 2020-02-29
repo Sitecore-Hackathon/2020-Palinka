@@ -1,38 +1,103 @@
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
 
-# Submission Boilerplate
+# Documentation
 
 Welcome to Sitecore Hackathon 2020.
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2020/
-
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
+This is the documentation for Team Pálinka submission
 
 
-## Entry Submission Requirements 
+## Sitecore Hackathon Site
 
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Saturday  February 29th 2020 at 8PM EST**. The modules should be based on [Sitecore 9.3 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/93/Sitecore_Experience_Platform_93_Initial_Release.aspx).
+### Installation
 
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
+Please install the related [package](sc.package/HackathonSite.zip) to a Clean Sitecore Instance. 
+The package contains every necessary files and sitecore items.
 
-- Sitecore 9.3 (Initial Release) Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
+### Module List
 
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
-
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
-
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
-
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+- Navigation
+  - Header and Footer Included
+  - Each PageItem under the HomeItem has a "Hide in Navigation" checkbox which prevents to display the page item in the navigation
+  - Footer Navigation and Header Social Links can be edited in /sitecore/content/Hackathon/Global/Navigation folder
+  - Link items must be selected on the FooterNavigation item's Links field
+  - ![Links](documentation/links.png)
+- FAQ Module
+  - FAQ items can be edited in /sitecore/content/Hackathon/Global/FAQs folders
+  - Each FAQ item has a Question and Answer field
+  - You can FAQ render to any pages, FAQ rendering item datasource should point to /sitecore/content/Hackathon/Global/FAQs
+  - ![Faq](documentation/faq.png)
+  - ![Faqmodule](documentation/faqmodule.png)
+- Teams
+  - Teams stored in a global folder by Year Seperated
+  - Structure
+    - Teams
+      - 2018
+        - Team1
+          - Team Member1
+          - Team Member2
+      - 2019
+        - ....
+        - ![Teamstructure](documentation/teamstructure.png)
+  - Fields
+    - Team Template
+      - Team Name - Name of the team. 
+      - Country
+      - Github Link (should be set once the repositories are done)
+      - Category (should be set once the submission is done)
+      - Is Winner (should be checked if the team is the winner in the given year)
+  - Teams Page
+    - List Teams from the selected year
+    - ![Teamspage](documentation/teamspage.png)
+  - Teams Statistics
+    - Shows statistics from the given year
+    - ![Stat](documentation/stat.png)
+  - Recent Teams
+    - Displays the recently signed up 5 teams
+- Submission Page
+  - A Sitecore form built to send submission
+  - A Team Template has workflow settings, so it not displayed on the site immediatelly
+  - There is validation for the unique team name
+  - ![Submission](documentation/submission.png)
+- Current Winner
+  - Displays the winners from the current year. 
+  - Selects teams from the proper folder where there **Is Winner** checkbox is ticked
+  - ![Winners](documentation/winners.png)
+- Previous Winners
+  - Displayed on the homepage
+  - Automatically collects winner teams from the previous years and lists the category too
+  - ![Previouswinner](documentation/previouswinner.png)
+- Text Module
+  - A simple rich text module can be inserted on any type of page. 
+  - Text Datasource item can be created under the given **page's component folder**
+  - ![Richtext](documentation/richtext.png)
+  - ![Richtext2](documentation/richtext2.png)
+- Image Module
+  - A single image module can be inserted on any type of page. 
+  - Image Datasource item can be created under the given **page's component folder**
+- Categories module
+  - Displays information about the selected categories
+  - Categories can be selected on Event Page in **Categories** field
+  - ![Categories](documentation/categories.png)
+- Judges modules
+  - Display judge's information  (community and Sitecore judges are seperated)
+  - Judges can be selected on each **Event** **Page** in **Community Judges** and **Sitecore Judges** fields
+  - ![File](documentation/file.png)
+- Prizes module
+  - Displays Prize items from /sitecore/content/Hackathon/Global/Prizes
+  - Prizes must be selected on Event Page in **Prizes** field
+  - ![Prizes](documentation/prizes.png)
+- Testimonial Module
+  - Display Testimonials items from - Image Datasource item can be created under the given **page's component folder**
+  - The Testimationals can be selected on the Testimonial Rendering's datasource item. 
+  - The Datasource item will be created in the given page's Component folders.
+  - ![Testimonial](documentation/testimonial.png)
+- Content Page
+  - Any Type of module can be added to the Content Page
+- Judge Application
+  - A SPEAK3 based application to support judging process.
+  - Lists Teams from the current team
+  - A team can be opened and a Judge user can only add one review (Point and Comment pair)
+  - The judge cannot add more review to the team.
+  - ![Judgeapp](documentation/judgeapp.png)
+  - ![Judgeapp2](documentation/judgeapp2.png)

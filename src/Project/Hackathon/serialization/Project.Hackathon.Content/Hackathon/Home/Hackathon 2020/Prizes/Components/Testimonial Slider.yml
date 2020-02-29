@@ -1,0 +1,18 @@
+﻿---
+ID: "4c71f202-93f1-4cf6-b939-939286499313"
+Parent: "d2abd417-6a82-4a60-90ad-83dcb6b824da"
+Template: "9673819d-b713-410e-86bb-e235a4fddf84"
+Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Prizes/Components/Testimonial Slider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T213502Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
