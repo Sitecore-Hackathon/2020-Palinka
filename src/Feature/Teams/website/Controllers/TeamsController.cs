@@ -6,6 +6,9 @@ namespace Hackathon.Feature.Teams.Controllers
     using Hackathon.Foundation.Content.Repositories;
     using Hackathon.Foundation.ORM.Models;
     using Sitecore.Mvc.Controllers;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Web.Mvc;
 
     /// <summary>
@@ -74,7 +77,32 @@ namespace Hackathon.Feature.Teams.Controllers
 
         public ActionResult PreviousWinners()
         {
-            var model = this.contextRepository.GetCurrentItem<IWinners>();
+            var teamsFolder = this.teamsRepository.GetAllTeamsFolder().ToList();
+
+            var model = new PreviousWinnersViewModel();
+            model.Years = new List<PreviousWinnerYearViewModel>();
+            foreach(var teamFolder in teamsFolder.Where(t => !t.Name.Equals(DateTime.Now.Year.ToString(), StringComparison.OrdinalIgnoreCase)))
+            {
+                var year = new PreviousWinnerYearViewModel
+                {
+                    Year = $"Sitecore Hackathon - {teamFolder.Name}",
+                    Details = new List<YearRowViewModel>()
+                };
+
+                foreach(var team in teamFolder.Teams.Where(t => t.IsWinner))
+                {
+                    year.Details.Add(new YearRowViewModel { Text = $"Winner {team.Name} in {team.Category.Title}" });
+                }
+
+                year.Details.Add(new YearRowViewModel
+                {
+                    Text = $"Sitecore Hackathon {teamFolder.Name} Winning Teams",
+                    Link = $"/Hackathon {teamFolder.Name}/winning-teams"
+                });
+
+                model.Years.Add(year);
+            }
+
             return View(model);
         }
     }

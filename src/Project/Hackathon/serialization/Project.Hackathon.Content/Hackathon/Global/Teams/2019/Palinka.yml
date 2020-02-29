@@ -1,0 +1,28 @@
+﻿---
+ID: "81d22e5a-fe6c-4907-9594-b0a00ffd3d0c"
+Parent: "e5bdd18e-be36-49a5-bc42-39bfd03cff52"
+Template: "ff34c006-bcd7-49cf-9b17-d72917f4e18b"
+Path: /sitecore/content/Hackathon/Global/Teams/2019/Palinka
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T194628Z
+    - ID: "2cd222e4-acc3-470c-847e-80a58a3c560e"
+      Hint: Team Name
+      Value: Palinka
+    - ID: "48a872b5-2b19-4f43-8839-806e858eb3b6"
+      Hint: Is Winner
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5ebb2b1f-274c-4e72-94fe-9696e3a108c8"
+      Hint: Category
+      Value: "{233AF1C9-EF90-48DD-8A6E-797F5C36A6DF}"

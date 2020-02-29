@@ -1,0 +1,28 @@
+﻿---
+ID: "f34e2413-42cf-4384-bc0c-e86babf16cf0"
+Parent: "e5bdd18e-be36-49a5-bc42-39bfd03cff52"
+Template: "ff34c006-bcd7-49cf-9b17-d72917f4e18b"
+Path: /sitecore/content/Hackathon/Global/Teams/2019/Go Horse
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T194551Z
+    - ID: "2cd222e4-acc3-470c-847e-80a58a3c560e"
+      Hint: Team Name
+      Value: Go Horse
+    - ID: "48a872b5-2b19-4f43-8839-806e858eb3b6"
+      Hint: Is Winner
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5ebb2b1f-274c-4e72-94fe-9696e3a108c8"
+      Hint: Category
+      Value: "{39A05003-C96C-4452-9AB7-B1975E9851F8}"

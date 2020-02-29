@@ -1,0 +1,28 @@
+﻿---
+ID: "a7cb5074-6084-4820-bbb0-599ec6814d1c"
+Parent: "19ec367b-e072-40e6-98fb-0f2470e22679"
+Template: "ff34c006-bcd7-49cf-9b17-d72917f4e18b"
+Path: /sitecore/content/Hackathon/Global/Teams/2018/Santas Little Helper
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T194501Z
+    - ID: "2cd222e4-acc3-470c-847e-80a58a3c560e"
+      Hint: Team Name
+      Value: Santa's Little Helper
+    - ID: "48a872b5-2b19-4f43-8839-806e858eb3b6"
+      Hint: Is Winner
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5ebb2b1f-274c-4e72-94fe-9696e3a108c8"
+      Hint: Category
+      Value: "{FF1B9531-E90B-4EF8-A301-420D27781DD4}"

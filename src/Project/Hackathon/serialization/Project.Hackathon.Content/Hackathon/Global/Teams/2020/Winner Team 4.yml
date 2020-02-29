@@ -1,0 +1,34 @@
+﻿---
+ID: "ed9cab15-ac33-45d8-a3de-6477d37e5d12"
+Parent: "d0ca9063-241d-4b23-b942-67439c03d85e"
+Template: "ff34c006-bcd7-49cf-9b17-d72917f4e18b"
+Path: /sitecore/content/Hackathon/Global/Teams/2020/Winner Team 4
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24977a58-3223-45cf-ac9d-a850ad02c3ea"
+      Hint: GitHub Link
+      Value: "https://github.com/"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T203408Z
+    - ID: "2cd222e4-acc3-470c-847e-80a58a3c560e"
+      Hint: Team Name
+      Value: Winner Team 4
+    - ID: "47066361-2e99-429e-93f7-5f2cd6c9fd73"
+      Hint: Country
+      Value: China
+    - ID: "48a872b5-2b19-4f43-8839-806e858eb3b6"
+      Hint: Is Winner
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5ebb2b1f-274c-4e72-94fe-9696e3a108c8"
+      Hint: Category
+      Value: "{DB0EE32F-964C-40E3-9367-6F68A3DEA40E}"

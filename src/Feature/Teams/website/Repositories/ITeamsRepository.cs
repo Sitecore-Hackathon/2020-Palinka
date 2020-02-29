@@ -10,5 +10,6 @@ namespace Hackathon.Feature.Teams.Repositories
         IEnumerable<ITeam> GetAll(string folderPath);
         IEnumerable<ITeam> GetLatest(string folderPath, int count);
         IEnumerable<ITeam> GetLatest(ITeamsFolder folder, int count);
+        IEnumerable<ITeamsFolder> GetAllTeamsFolder();
     }
 }

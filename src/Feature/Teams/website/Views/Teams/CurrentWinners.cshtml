@@ -3,7 +3,7 @@
 
 <div class="row">
     <div class="span12">
-        <h4>Current Winners</h4>
+        <h4>Winners</h4>
     </div>
 
     @foreach (var team in Model.CurrentWinners)
@@ -16,9 +16,9 @@
                 <h5>@team.Name</h5>
                 @if (team.Category != null)
                 {
-                    <h6>@team.Category.Title</h6>
+                <h6> @Html.Glass().Editable(team.Category, x => x.Title)</h6>
                     <p>
-                        @team.Category.Description
+                        @Html.Glass().Editable(team.Category, x => x.Description)
                     </p>
                 }
                 <a href="@team.GitHubLink" class="btn btn-danger">GitHub Repository</a>
