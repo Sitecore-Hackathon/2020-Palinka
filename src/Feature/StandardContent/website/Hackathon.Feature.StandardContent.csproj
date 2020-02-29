@@ -52,6 +52,8 @@
     <Content Update="Views\Faq\FaqList.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
-    <Folder Include="ViewModels\" />
+    <Content Update="Views\StandardContent\Sponsors.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 </Project>
