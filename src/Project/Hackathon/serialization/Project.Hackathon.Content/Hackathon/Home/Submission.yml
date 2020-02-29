@@ -1,0 +1,14 @@
+﻿---
+ID: "3b467a24-613c-4746-a1b0-410ca925b7fd"
+Parent: "1d5c266a-112f-4ea2-a69e-e4865ace2200"
+Template: "8efe6304-30b2-4246-82c9-3a629ada03a2"
+Path: /sitecore/content/Hackathon/Home/Submission
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T084506Z

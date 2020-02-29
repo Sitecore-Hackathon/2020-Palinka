@@ -1,0 +1,18 @@
+﻿---
+ID: "97140eb4-c1b6-43ba-b79a-f7d8d39237bc"
+Parent: "1d5c266a-112f-4ea2-a69e-e4865ace2200"
+Template: "0b175727-957e-4033-b017-a90d2b1fb948"
+Path: /sitecore/content/Hackathon/Home/Sample
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T084615Z
