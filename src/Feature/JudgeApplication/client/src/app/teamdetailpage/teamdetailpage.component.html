@@ -1,0 +1,53 @@
+<div *ngIf="errorMessage" class="errorMessage">
+  {{errorMessage.Message}}
+</div>  
+<div class="card mb-3" *ngIf="!isLoading && teamData">
+  <div class="card-block">
+    <h1 class="card-title">{{teamData.TeamName}}</h1>
+    <h2><a href="{{teamData.GitHubLink}}">Submission Link</a></h2>
+  
+    <br>
+    <div class="row">
+      <div class="col-12">
+        <h3>Team Members</h3>
+
+        <table scTable>
+          <thead>
+            <tr>
+              <th>Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of teamData.Member">
+
+              <td>{{item.Name}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+  <div class="card-block" *ngIf="!teamData.Reviewed">
+    <h2>Evaluation</h2>
+    <label>Point</label>
+    <input type="text" class="form-control" [(ngModel)]="points" />
+
+    <label>Comments</label>
+    <textarea class="form-control" [(ngModel)]="comments" rows="10">
+      </textarea>
+    <br />
+    <button scButton="primary" (click)="sendData()">Send</button>
+
+  </div>
+  <div class="card-block" *ngIf="teamData.Reviewed">
+    <h2>Evaluation</h2>
+    <label>Point</label>
+    <p>{{teamData.Point}}</p>
+    <label>Comments</label>
+    <p>{{teamData.Comment}}</p>
+    <br />
+  </div>
+</div>
+<sc-progress-indicator-panel [show]="isLoading">
+</sc-progress-indicator-panel>

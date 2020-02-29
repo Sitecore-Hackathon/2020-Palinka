@@ -1,0 +1,21 @@
+﻿---
+ID: "98d4007c-ba88-4ec4-9c41-8ca3bf6ac9dd"
+Parent: "0bf90721-6c39-48c3-a8f4-518ca20a837a"
+Template: "4cc5bb60-689d-46f1-83cb-348ea5da3950"
+Path: /sitecore/content/Hackathon/Global/Teams/2020/Sitecore/Judges/admin
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T155135Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9bd12fe7-a023-4994-9a34-3adf2204a2c5"
+      Hint: Point
+      Value: asd

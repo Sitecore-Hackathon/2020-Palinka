@@ -29,12 +29,16 @@ import { AppComponent } from './app.component';
 import { StartPageComponent } from './start-page/start-page.component';
 import { ServiceSamplePageComponent } from './service-sample-page/service-sample-page.component';
 import { SampleService } from './service-sample-page/sample.service';
+import { JudgeService } from './judge.service';
+import { ScProgressIndicatorPanelModule } from '@speak/ng-bcl/progress-indicator-panel';
+import { TeamdetailpageComponent } from './teamdetailpage/teamdetailpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartPageComponent,
-    ServiceSamplePageComponent
+    ServiceSamplePageComponent,
+    TeamdetailpageComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +47,7 @@ import { SampleService } from './service-sample-page/sample.service';
     HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: StartPageComponent, pathMatch: 'full' },
-      { path: 'servicesample', component: ServiceSamplePageComponent }
+      { path: 'teamdetail', component: TeamdetailpageComponent }
     ]),
     ScAccountInformationModule,
     ScActionBarModule,
@@ -59,6 +63,7 @@ import { SampleService } from './service-sample-page/sample.service';
     ScDropdownModule,
     ScDialogModule,
     ScActionControlModule,
+    ScProgressIndicatorPanelModule,
     SciAntiCSRFModule,
     NgScModule.forRoot({
       authItemId: '1023A91F-E7C0-410C-BE84-472204C71FD7',
@@ -67,7 +72,7 @@ import { SampleService } from './service-sample-page/sample.service';
     })
   ],
   providers: [
-    SampleService, SciLogoutService
+    SampleService, SciLogoutService, JudgeService
   ],
   bootstrap: [AppComponent]
 })
