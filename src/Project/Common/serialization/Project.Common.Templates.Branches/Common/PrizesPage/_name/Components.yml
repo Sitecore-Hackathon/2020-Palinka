@@ -1,0 +1,14 @@
+﻿---
+ID: "8f7578dd-f97c-47ea-a88c-d2742db69426"
+Parent: "b5025957-4219-4aa0-b7b7-ebcdbf3e73f3"
+Template: "1addad38-1aed-478f-b972-78b4f3f5f988"
+Path: /sitecore/templates/Branches/Project/Common/PrizesPage/$name/Components
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184604Z
