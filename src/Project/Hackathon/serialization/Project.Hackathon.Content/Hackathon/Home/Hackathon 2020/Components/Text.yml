@@ -1,0 +1,110 @@
+﻿---
+ID: "60fb0248-cec0-45fb-9bdc-384049f5a1ea"
+Parent: "1095cd62-93d1-4867-a21d-b25b151f9cf0"
+Template: "1a7e19d6-7d24-410b-8fd6-4dabd3a6ac13"
+Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Components/Text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T221851Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "f43d41b9-c1a8-4b0b-9c47-cb09cd05e37e"
+      Hint: Text
+      Value: |
+        <div class="row">
+                  <!-- Unordered Lists -->
+                  <div class="span3">
+                    <h4>Unordered Lists</h4>
+                    <ul>
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit
+                        <ul>
+                          <li>Phasellus iaculis neque</li>
+                          <li>Purus sodales ultricies</li>
+                          <li>Vestibulum laoreet porttitor sem</li>
+                          <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                      </li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Aenean sit amet erat nunc</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>
+                  </div>
+        
+                  <!-- Unstyled Lists -->
+                  <div class="span3">
+                    <h4>Unstyled unordered</h4>
+                    <ul class="unstyled">
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit
+                        <ul>
+                          <li>Phasellus iaculis neque</li>
+                          <li>Purus sodales ultricies</li>
+                          <li>Vestibulum laoreet porttitor sem</li>
+                          <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                      </li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Aenean sit amet erat nunc</li>
+                      <li>Eget porttitor lorem</li>
+                    </ul>
+                  </div>
+        
+                  <!-- Ordered Lists -->
+                  <div class="span3">
+                    <h4>Ordered Lists</h4>
+                    <ol>
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit
+                        <ol>
+                          <li>Phasellus iaculis neque</li>
+                          <li>Purus sodales ultricies</li>
+                          <li>Vestibulum laoreet porttitor sem</li>
+                          <li>Ac tristique libero volutpat at</li>
+                        </ol>
+                      </li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Aenean sit amet erat nunc</li>
+                      <li>Eget porttitor lorem</li>
+                    </ol>
+                  </div>
+        
+                  <!-- Unstyled Lists -->
+                  <div class="span3">
+                    <h4>Unstyled ordered</h4>
+                    <ol class="unstyled">
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Consectetur adipiscing elit</li>
+                      <li>Integer molestie lorem at massa</li>
+                      <li>Facilisis in pretium nisl aliquet</li>
+                      <li>Nulla volutpat aliquam velit
+                        <ol>
+                          <li>Phasellus iaculis neque</li>
+                          <li>Purus sodales ultricies</li>
+                          <li>Vestibulum laoreet porttitor sem</li>
+                          <li>Ac tristique libero volutpat at</li>
+                        </ol>
+                      </li>
+                      <li>Faucibus porta lacus fringilla vel</li>
+                      <li>Aenean sit amet erat nunc</li>
+                      <li>Eget porttitor lorem</li>
+                    </ol>
+                  </div>
+                </div>
