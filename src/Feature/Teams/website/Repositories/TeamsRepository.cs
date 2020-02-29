@@ -150,5 +150,12 @@
 
             contentRepository.SaveItem(new Glass.Mapper.Sc.SaveOptions(model));
         }
+
+        public IEnumerable<ITeamsFolder> GetAllTeamsFolder()
+        {
+            string teamsFolderQuery = "/sitecore/content/Hackathon/Global/Teams/*";
+
+            return this.contentRepository.GetItems<ITeamsFolder>(new Glass.Mapper.Sc.GetItemsByQueryOptions(new Glass.Mapper.Sc.Query(teamsFolderQuery)));
+        }
     }
 }

@@ -15,5 +15,6 @@ namespace Hackathon.Feature.Teams.Repositories
         ISubmissionSettings GetSubmitionSettings();
 
         List<string> GetCountries(IEnumerable<ITeam> teams);
+        IEnumerable<ITeamsFolder> GetAllTeamsFolder();
     }
 }

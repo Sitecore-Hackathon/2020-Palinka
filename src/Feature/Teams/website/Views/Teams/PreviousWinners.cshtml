@@ -1,29 +1,28 @@
 @using Glass.Mapper.Sc.Web.Mvc
-@model Hackathon.Feature.Teams.Models.IWinners
+@model Hackathon.Feature.Teams.ViewModels.PreviousWinnersViewModel
 
 <div class="row">
-    <div class="span12">
+    <div class="span6">
+        <!-- Description -->
         <h4>Previous Winners</h4>
-    </div>
-
-    @foreach (var team in Model.PreviousWinners)
-    {
-        <div class="span3">
-            <div class="service-box aligncenter flyIn animated fadeInUp">
-                <div class="icon">
-                    <i class="icon-circled icon-bgsuccess icon-trophy icon-4x"></i>
-                </div>
-                <h5>@team.Name</h5>
-                @if (team.Category != null)
+        <dl>
+            @foreach (var year in Model.Years)
+            {
+                <dt>@year.Year</dt>
+                foreach (var detail in year.Details)
                 {
-                    <h6>@team.Category.Title</h6>
-                    <p>
-                        @team.Category.Description
-                    </p>
-                }
-                <a href="@team.GitHubLink" class="btn btn-danger">GitHub Repository</a>
-            </div>
-        </div>
-    }
+                    if (string.IsNullOrEmpty(detail.Link))
+                    {
+                        <dd>@detail.Text</dd>
+                    }
+                    else
+                    {
+                        <dd><a class="text-error" href="@detail.Link">@detail.Text</a></dd>
+                    }
 
+                }
+            }
+            
+        </dl>
+    </div>
 </div>

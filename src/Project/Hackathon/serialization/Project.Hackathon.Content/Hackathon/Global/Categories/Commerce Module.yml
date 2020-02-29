@@ -1,24 +1,21 @@
 ﻿---
-ID: "db0ee32f-964c-40e3-9367-6f68a3dea40e"
+ID: "06cc1f9b-c025-46ad-a73a-f5cd908af1b9"
 Parent: "fa8bc3cd-94b4-49e4-9cfe-36d65b841e9c"
 Template: "f01972c6-9408-436d-95b0-7714de9ed77c"
-Path: /sitecore/content/Hackathon/Global/Categories/Hackathon Site
+Path: /sitecore/content/Hackathon/Global/Categories/Commerce Module
 DB: master
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "0b2e2cbf-38a0-4594-ada9-320c0d09af2f"
-      Hint: Description
-      Value: "This idea is sooo meta! Several years have passed with the current version and it’s in need of a refresh.<br/><br/><br/><br/>"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T164500Z
+      Value: 20200229T195022Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
     - ID: "626aa5d9-b54e-4fcc-ac41-8657f5a368f3"
       Hint: Title
-      Value: Sitecore Hackathon Site
+      Value: Commerce Module

@@ -1,6 +1,5 @@
 namespace Hackathon.Feature.StandardContent.Controllers
 {
-    using Glass.Mapper.Sc.Web.Mvc;
     using Hackathon.Feature.StandardContent.Models;
     using Hackathon.Foundation.Content.Repositories;
     using Hackathon.Foundation.ORM.Models;
@@ -11,17 +10,17 @@ namespace Hackathon.Feature.StandardContent.Controllers
     {
         private readonly IContextRepository contextRepository;
 
-        private readonly IContentRepository contentRepository;
+        private readonly IRenderingRepository renderingRepository;
 
-        public StandardContentController(IContextRepository contextRepository, IContentRepository contentRepository)
+        public StandardContentController(IContextRepository contextRepository, IRenderingRepository renderingRepository)
         {
             this.contextRepository = contextRepository;
-            this.contentRepository = contentRepository;
+            this.renderingRepository = renderingRepository;
         }
 
         public ActionResult Text()
         {
-            var model = contextRepository.GetCurrentItem<IText>();
+            var model = renderingRepository.GetRenderingItem<IText>();
             return View(model);
         }
 
