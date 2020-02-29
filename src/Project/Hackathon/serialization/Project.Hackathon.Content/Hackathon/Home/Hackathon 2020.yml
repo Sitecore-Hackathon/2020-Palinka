@@ -12,6 +12,14 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T084439Z
+    - ID: "61fc184c-71d7-4592-873c-9621749b5e2e"
+      Hint: Community Judges
+      Type: Multilist
+      Value: "{1988809A-CAED-48F0-93E4-D4E110C48A66}"
     - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
       Hint: Navigation Title
       Value: Hackathon 2020
+    - ID: "c2f69b38-a8ba-45ec-a9a4-9f740e598fcc"
+      Hint: Sitecore Judges
+      Type: Multilist
+      Value: "{2C215EAD-66CE-4A63-84F4-C36C296FCD03}"

@@ -1,0 +1,34 @@
+﻿---
+ID: "2c215ead-66ce-4a63-84f4-c36c296fcd03"
+Parent: "344c766c-02dc-475a-a551-686443e349ec"
+Template: "a32de60d-8564-4326-8236-5af25028f7aa"
+Path: /sitecore/content/Hackathon/Global/Judges/test sitecore judge 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ce82011-206c-407e-8c2b-35844c607728"
+      Hint: Fullname
+      Value: sitecore judge 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T142557Z
+    - ID: "33fba013-b82c-4d0c-b15c-4b0bee4a502f"
+      Hint: Bio
+      Value: hackathon site url test
+    - ID: "577eb48d-baf1-4c3c-b18d-bb372f5ac9ed"
+      Hint: Twitter
+      Value: "https://twitter.com/"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8a5b75a7-2ad3-4e3e-8e26-6351679d95e1"
+      Hint: LinkedIn
+      Value: "https://linkedin.com/"
+    - ID: "c60c83a7-0a4c-4a68-8119-e617fd49d1eb"
+      Hint: Photo
+      Value: |
+        <image mediaid="{4B48D87B-E463-42DD-B0F2-F45C382F6204}" />
