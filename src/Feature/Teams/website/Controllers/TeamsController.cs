@@ -29,6 +29,11 @@ namespace Hackathon.Feature.Teams.Controllers
         private readonly IRenderingRepository renderingRepository;
 
         /// <summary>
+        /// The recent items count
+        /// </summary>
+        private const int RecentItemsCount = 4;
+
+        /// <summary>
         /// Initializes a new instance.
         /// </summary>
         public TeamsController(IContextRepository contextRepository, IRenderingRepository renderingRepository, ITeamsRepository teamsRepository)
@@ -51,13 +56,28 @@ namespace Hackathon.Feature.Teams.Controllers
             {
                 model.Teams = this.teamsRepository.GetAll(reference.TeamsFolder);
                 model.Title = reference.TeamsTitle;
+                return View(model);
             }
 
-            return View(model);
+            return new EmptyResult();
         }
 
         public ActionResult Recent()
         {
+            var reference = this.renderingRepository.GetDataSourceItem<ITeamsFolderReference>();
+            if (reference == null)
+            {
+                reference = this.contextRepository.GetCurrentItem<ITeamsFolderReference>();
+            }
+
+            var model = new TeamList();
+            if (reference != null)
+            {
+                model.Teams = this.teamsRepository.GetLatest(reference.TeamsFolder, RecentItemsCount);
+                model.Title = reference.TeamsTitle;
+                return View(model);
+            }
+
             return new EmptyResult();
         }
 
