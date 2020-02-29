@@ -1,0 +1,22 @@
+﻿---
+ID: "9245d32c-9abf-45bf-a488-16eafc51503f"
+Parent: "de49805c-67d6-4bf2-89de-7e1f2b67f3fe"
+Template: "6622c21b-dd14-47af-b951-4eae7909507a"
+Path: /sitecore/content/Hackathon/Global/Navigation/FooterNavigation/Footer Link1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101156Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "fd88489f-8dc3-4edc-9b02-8880051ae83e"
+      Hint: Link
+      Value: |
+        <link text="Sitecore.net" linktype="external" url="https://sitecore.net" anchor="" target="" />

@@ -1,8 +1,8 @@
----
+﻿---
 ID: "6cf55936-0b82-4ef5-9dc2-81d8ae0a8ddb"
-Parent: "F5F0FBE3-61AD-4967-A5D8-8D760331D6A1"
+Parent: "f5f0fbe3-61ad-4967-a5d8-8d760331d6a1"
 Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
-Path: /sitecore/layout/Placeholder Settings/Project/Hackathon
+Path: /sitecore/layout/placeholder settings/Project/Hackathon
 DB: master
 Languages:
 - Language: en

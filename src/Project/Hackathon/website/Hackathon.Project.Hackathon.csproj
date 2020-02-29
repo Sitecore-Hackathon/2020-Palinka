@@ -26,4 +26,12 @@
     </PackageReference>
     <PackageReference Include="Sitecore.Mvc.Analytics" Version="9.3.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="Views\Renderings\Hackathon\Footer.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Renderings\Hackathon\Header.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
 </Project>

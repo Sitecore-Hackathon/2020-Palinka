@@ -1,8 +1,8 @@
 ﻿---
 ID: "d13e50bb-d9ad-485e-9fd7-7a5e4e879492"
-Parent: "DA04B275-8838-4A3A-AFEE-817CF1FDD2EB"
+Parent: "da04b275-8838-4a3a-afee-817cf1fdd2eb"
 Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
-Path: /sitecore/layout/Layouts/Project/Common
+Path: /sitecore/layout/layouts/Project/Common
 DB: master
 Languages:
 - Language: en
