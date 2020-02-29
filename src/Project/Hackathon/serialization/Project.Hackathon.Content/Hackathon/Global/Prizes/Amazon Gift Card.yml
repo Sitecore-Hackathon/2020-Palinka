@@ -1,0 +1,27 @@
+﻿---
+ID: "c2ffa2f1-674d-46cc-a2d8-a572b432b230"
+Parent: "2c6648cf-41a6-43d8-80e3-9cadc70aa964"
+Template: "a6100b46-9834-4b01-b6ac-d31bc111fed4"
+Path: /sitecore/content/Hackathon/Global/Prizes/Amazon Gift Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T185851Z
+    - ID: "2fc81e77-5b57-4fc1-9ff8-fe50b6fd4434"
+      Hint: Description
+      Value: 200$ Amazon Gift Card
+    - ID: "460827dc-9db1-4885-a99c-fa3080fa514f"
+      Hint: Title
+      Value: Amazon Gift <strong>Card</strong>
+    - ID: "c425299c-0f6f-4ef3-b690-d9a56839e4e9"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{02C59593-48F5-4A09-B719-EFCF5B38EE9B}" />
+    - ID: "e38510c4-6856-40b4-8653-4a21de1fb180"
+      Hint: Icon
+      Value: "icon-credit-card"

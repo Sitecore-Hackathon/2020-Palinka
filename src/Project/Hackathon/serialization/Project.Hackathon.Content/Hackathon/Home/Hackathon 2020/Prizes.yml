@@ -1,0 +1,23 @@
+﻿---
+ID: "02c59593-48f5-4a09-b719-efcf5b38ee9b"
+Parent: "951db760-fd07-4e90-865a-89f0273256bd"
+Template: "6c0aa51d-d38e-43ea-b91a-4be3ebc74cd4"
+Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Prizes
+DB: master
+BranchID: "557a9040-3e6b-4ed4-b964-5062547c61c0"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B5025957-4219-4AA0-B7B7-EBCDBF3E73F3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184641Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

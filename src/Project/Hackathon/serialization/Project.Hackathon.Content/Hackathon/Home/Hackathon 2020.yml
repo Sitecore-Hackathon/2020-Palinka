@@ -31,8 +31,13 @@ Languages:
               s:ph="main" />
             <r
               uid="{B7C538FF-BB7D-4B2E-87FE-77A0E18A0E19}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{AFF62F17-C7AA-4D23-927A-D9631A71956B}']"
               s:id="{7CE00253-A54D-43A6-BAF2-E396D9F0FD34}"
+              s:ph="main" />
+            <r
+              uid="{6F78F9BB-05C1-4EF6-95BD-FEE950289554}"
+              p:after="*[1=2]"
+              s:id="{A3581F7F-DB69-46D5-808B-EBB7E825A9CE}"
               s:ph="main" />
           </d>
         </r>
@@ -48,6 +53,13 @@ Languages:
       Value: |
         {CFEC9950-A897-4512-952A-3926D33F2087}
         {5CD1D925-B791-424C-9497-C70A7B067687}
+    - ID: "24e91971-c6c7-4359-9904-c10c14a59cc2"
+      Hint: Prizes
+      Type: Multilist
+      Value: |
+        {C2FFA2F1-674D-46CC-A2D8-A572B432B230}
+        {B685AA97-7C72-42FC-868B-906CD7820425}
+        {116CF4C6-B6EB-4C77-952B-6E77F5394E25}
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T084439Z
