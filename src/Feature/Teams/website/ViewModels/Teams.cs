@@ -5,6 +5,7 @@
 
     public class TeamList
     {
+        public string Title { get; set; }
         public IEnumerable<ITeam> Teams { get; set; }
     }
 }

@@ -1,0 +1,24 @@
+﻿---
+ID: "74e35738-d623-4399-8217-b2a59ca840e4"
+Parent: "cfec9950-a897-4512-952a-3926d33f2087"
+Template: "3b6bce5f-c144-42b0-81de-18c882db72f3"
+Path: /sitecore/content/Hackathon/Global/Teams/2020/Sitecore 4/Nrapendra V
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T121919Z
+    - ID: "40fbda9d-9e22-420e-8949-7088c303f243"
+      Hint: Last Name
+      Value: V
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6ae5cb90-d331-43d0-a91a-c4421e0e7425"
+      Hint: First Name
+      Value: Nrapendra

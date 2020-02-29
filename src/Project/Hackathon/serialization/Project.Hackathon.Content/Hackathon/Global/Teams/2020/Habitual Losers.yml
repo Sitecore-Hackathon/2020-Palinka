@@ -4,6 +4,10 @@ Parent: "d0ca9063-241d-4b23-b942-67439c03d85e"
 Template: "ff34c006-bcd7-49cf-9b17-d72917f4e18b"
 Path: /sitecore/content/Hackathon/Global/Teams/2020/Habitual Losers
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:

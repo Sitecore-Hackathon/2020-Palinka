@@ -1,8 +1,10 @@
 namespace Hackathon.Feature.Teams.Controllers
 {
+    using Hackathon.Feature.Teams.Models;
     using Hackathon.Feature.Teams.Repositories;
     using Hackathon.Feature.Teams.ViewModels;
     using Hackathon.Foundation.Content.Repositories;
+    using Hackathon.Foundation.ORM.Models;
     using Sitecore.Mvc.Controllers;
     using System.Web.Mvc;
 
@@ -17,30 +19,39 @@ namespace Hackathon.Feature.Teams.Controllers
         private readonly IContextRepository contextRepository;
 
         /// <summary>
-        /// The content repository
-        /// </summary>
-        private readonly IContentRepository contentRepository;
-
-        /// <summary>
         /// The teams repository
         /// </summary>
         private readonly ITeamsRepository teamsRepository;
 
         /// <summary>
+        /// The rendering repository
+        /// </summary>
+        private readonly IRenderingRepository renderingRepository;
+
+        /// <summary>
         /// Initializes a new instance.
         /// </summary>
-        /// <param name="contextRepository">The context repository</param>
-        /// <param name="contentRepository">The content repository</param>
-        public TeamsController(IContextRepository contextRepository, IContentRepository contentRepository, ITeamsRepository teamsRepository)
+        public TeamsController(IContextRepository contextRepository, IRenderingRepository renderingRepository, ITeamsRepository teamsRepository)
         {
             this.contextRepository = contextRepository;
-            this.contentRepository = contentRepository;
+            this.renderingRepository = renderingRepository;
             this.teamsRepository = teamsRepository;
         }
 
         public ActionResult List()
         {
+            var reference = this.renderingRepository.GetDataSourceItem<ITeamsFolderReference>();
+            if (reference == null)
+            {
+                reference = this.contextRepository.GetCurrentItem<ITeamsFolderReference>();
+            }
+
             var model = new TeamList();
+            if(reference != null)
+            {
+                model.Teams = this.teamsRepository.GetAll(reference.TeamsFolder);
+                model.Title = reference.TeamsTitle;
+            }
 
             return View(model);
         }
