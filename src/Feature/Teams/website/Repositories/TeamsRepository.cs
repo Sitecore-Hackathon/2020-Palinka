@@ -60,6 +60,31 @@
             return GetAll(folder);
         }
 
+        public List<string> GetCountries(IEnumerable<ITeam> teams)
+        {
+            if (teams == null)
+            {
+                return new List<string>();
+            }
+
+            List<string> allCountries = new List<string>();
+            foreach (var team in teams)
+            {
+                if (!string.IsNullOrEmpty(team.Country))
+                {
+                    var countries = team.Country.Split(',')
+                        .Select(t => t.Trim()).ToArray();
+
+                    if (countries.Any())
+                    {
+                        allCountries.AddRange(countries);
+                    }
+                }
+            }
+
+            return allCountries.Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+        }
+
         public IEnumerable<ITeam> GetLatest(string folderPath, int count)
         {
             return GetAll(folderPath)
@@ -124,6 +149,13 @@
             model.LinkedIn = member.LinkedIn;
 
             contentRepository.SaveItem(new Glass.Mapper.Sc.SaveOptions(model));
+        }
+
+        public IEnumerable<ITeamsFolder> GetAllTeamsFolder()
+        {
+            string teamsFolderQuery = "/sitecore/content/Hackathon/Global/Teams/*";
+
+            return this.contentRepository.GetItems<ITeamsFolder>(new Glass.Mapper.Sc.GetItemsByQueryOptions(new Glass.Mapper.Sc.Query(teamsFolderQuery)));
         }
     }
 }

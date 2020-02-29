@@ -1,0 +1,14 @@
+﻿---
+ID: "7ed83d1a-c503-4640-adf5-c8d9e539656d"
+Parent: "06fc45db-ba5f-4aaa-8406-38e796dad130"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Teams/Team Statistics/Team Statistics
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184217Z

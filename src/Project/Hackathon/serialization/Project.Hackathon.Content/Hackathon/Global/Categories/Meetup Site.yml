@@ -1,0 +1,24 @@
+﻿---
+ID: "f9f2bd6a-e130-4942-b340-48256e28c9ae"
+Parent: "fa8bc3cd-94b4-49e4-9cfe-36d65b841e9c"
+Template: "f01972c6-9408-436d-95b0-7714de9ed77c"
+Path: /sitecore/content/Hackathon/Global/Categories/Meetup Site
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b2e2cbf-38a0-4594-ada9-320c0d09af2f"
+      Hint: Description
+      Value: In recent events the Meetup.com site began charging for the registering and hosting of meetings as well as other features previously free. Many of the Sitecore User Groups rely on Meetup
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T203328Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "626aa5d9-b54e-4fcc-ac41-8657f5a368f3"
+      Hint: Title
+      Value: Sitecore Meetup Website

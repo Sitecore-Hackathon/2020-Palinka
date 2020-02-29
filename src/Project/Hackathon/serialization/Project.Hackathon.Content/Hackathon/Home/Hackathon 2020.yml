@@ -18,6 +18,13 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{EAA64A8C-FA92-4B0D-8F93-EAE51AA716AD}"
+              p:before="*"
+              s:ds="{3DAD0D70-C2AB-4B99-BAE5-9F537ED0E263}"
+              s:id="{C7968011-82A5-4DB5-A239-A3B2BB8AFD66}"
+              s:par=""
+              s:ph="main" />
+            <r
               uid="{7C28686B-AB49-40C6-BA35-66242CD50980}"
               p:after="r[@uid='{387D006F-E03E-40D7-91E5-B2C54AD81D6D}']"
               s:ds=""
@@ -51,8 +58,10 @@ Languages:
       Hint: Current Year Winners
       Type: Treelist
       Value: |
-        {CFEC9950-A897-4512-952A-3926D33F2087}
-        {5CD1D925-B791-424C-9497-C70A7B067687}
+        {3E8A3276-61C4-4996-9DD9-1FD1B337110E}
+        {D1667AC5-D62A-44FA-A3B1-EB90FD4E7152}
+        {5CF3F948-96DA-49FD-8587-1B834541C87C}
+        {ED9CAB15-AC33-45D8-A3DE-6477D37E5D12}
     - ID: "24e91971-c6c7-4359-9904-c10c14a59cc2"
       Hint: Prizes
       Type: Multilist

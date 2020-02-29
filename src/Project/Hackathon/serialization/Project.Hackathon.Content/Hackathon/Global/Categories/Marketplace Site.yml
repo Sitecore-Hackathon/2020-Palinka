@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "0b2e2cbf-38a0-4594-ada9-320c0d09af2f"
       Hint: Description
-      Value: The Marketplace was once a destination for popular modules to be showcased to the community. Consider the ways in which modules can be shared and installed.
+      Value: The Marketplace was once a destination for popular modules to be showcased to the community. Consider the ways in which modules can be shared and installed.<br/><br/>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T164531Z
@@ -21,4 +21,4 @@ Languages:
         sitecore\admin
     - ID: "626aa5d9-b54e-4fcc-ac41-8657f5a368f3"
       Hint: Title
-      Value: Marketplace Site
+      Value: Sitecore Marketplace Site

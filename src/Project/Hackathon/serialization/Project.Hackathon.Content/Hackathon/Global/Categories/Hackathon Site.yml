@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "0b2e2cbf-38a0-4594-ada9-320c0d09af2f"
       Hint: Description
-      Value: "This idea is sooo meta! Several years have passed with the current version and it’s in need of a refresh."
+      Value: "This idea is sooo meta! Several years have passed with the current version and it’s in need of a refresh.<br/><br/><br/><br/>"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T164500Z
@@ -21,4 +21,4 @@ Languages:
         sitecore\admin
     - ID: "626aa5d9-b54e-4fcc-ac41-8657f5a368f3"
       Hint: Title
-      Value: Hackathon Site
+      Value: Sitecore Hackathon Site

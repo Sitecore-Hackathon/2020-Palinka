@@ -22,5 +22,7 @@
         ICategory Category { get; set; }
 
         string GitHubLink { get; set; }
+
+        bool IsWinner { get; set; }
     }
 }
