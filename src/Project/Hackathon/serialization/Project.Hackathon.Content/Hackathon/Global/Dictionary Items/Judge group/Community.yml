@@ -1,0 +1,18 @@
+﻿---
+ID: "cf5d99a9-d48d-4ac7-b0a1-873cc695320f"
+Parent: "b85031f7-1f6e-4a57-8d53-44bcdd42e576"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: /sitecore/content/Hackathon/Global/Dictionary Items/Judge group/Community
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T115417Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

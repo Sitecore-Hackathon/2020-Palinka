@@ -1,14 +1,14 @@
 ﻿---
-ID: "f41025c4-668f-4d54-817e-b4de3a060d93"
-Parent: "7aa0e340-c796-4c03-b84f-e04162058b86"
-Template: "7aa0e340-c796-4c03-b84f-e04162058b86"
-Path: /sitecore/templates/Project/Common/Content Types/Dictionary Folder/__Standard Values
+ID: "344c766c-02dc-475a-a551-686443e349ec"
+Parent: "a764f8d7-e505-4c60-acee-7f4416095d5f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Hackathon/Global/Judges
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: "{267D9AC7-5D85-4E9D-AF89-99AB296CC218}"
+  Value: "{A32DE60D-8564-4326-8236-5AF25028F7AA}"
 Languages:
 - Language: en
   Versions:
@@ -16,8 +16,8 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170401T182909Z
+      Value: 20200229T130758Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Admin
+        sitecore\admin

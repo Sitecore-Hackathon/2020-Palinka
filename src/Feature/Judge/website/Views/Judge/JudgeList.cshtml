@@ -1,0 +1,65 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.Judge.ViewModels.JudgeListViewModel
+
+
+<div class="row team">
+    <div class="span12">
+        <h4 class="title">Community judges</h4>
+    </div>
+
+    @if (Model.CommunityJudges.Any())
+    {
+        foreach (var judge in Model.CommunityJudges)
+        {
+            <div class="span3">
+                <div class="team-box">
+                    <a href="#" class="thumbnail"> @Html.Glass().RenderImage(judge, x => x.Photo, isEditable: true)</a>
+                    <div class="roles aligncenter">
+                        <p class="lead"><strong>@judge.Fullname</strong></p>
+                        <p>
+                            @if (!string.IsNullOrWhiteSpace(judge.Twitter))
+                            {
+                                <a href="@judge.Twitter"><i class="icon-twitter icon-circled icon-bglight active"></i></a>
+                            }
+                            @if (!string.IsNullOrWhiteSpace(judge.LinkedIn))
+                            {
+                                <a href="@judge.LinkedIn"><i class="icon-linkedin icon-circled icon-bglight active"></i></a>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+<div class="row team">
+    <div class="span12">
+        <h4 class="title">Sitecore judges</h4>
+    </div>
+
+    @if (Model.SitecoreJudges.Any())
+    {
+        foreach (var judge in Model.SitecoreJudges)
+        {
+            <div class="span3">
+                <div class="team-box">
+                    <a href="#" class="thumbnail"> @Html.Glass().RenderImage(judge, x => x.Photo, isEditable: true)</a>
+                    <div class="roles aligncenter">
+                        <p class="lead"><strong>@judge.Fullname</strong></p>
+                        <p>
+                            @if (!string.IsNullOrWhiteSpace(judge.Twitter))
+                            {
+                                <a href="@judge.Twitter"><i class="icon-twitter icon-circled icon-bglight active"></i></a>
+                            }
+                            @if (!string.IsNullOrWhiteSpace(judge.LinkedIn))
+                            {
+                                <a href="@judge.LinkedIn"><i class="icon-linkedin icon-circled icon-bglight active"></i></a>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
