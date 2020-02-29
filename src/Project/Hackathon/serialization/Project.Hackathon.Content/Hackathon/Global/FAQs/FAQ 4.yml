@@ -1,0 +1,24 @@
+﻿---
+ID: "feda53a6-962e-48d9-99a4-5c40c6f2672b"
+Parent: "6bee8f37-be1c-4f3f-afff-1eeefad6c464"
+Template: "826df816-63a5-4bd8-abbe-69afc9e2c660"
+Path: /sitecore/content/Hackathon/Global/FAQs/FAQ 4
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T190905Z
+    - ID: "32d90729-eead-44d0-9068-d064223d4ccc"
+      Hint: Question
+      Value: "I am a Team of One but want to participate, what can I do?"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "826742a0-8023-4244-8466-06ce6691d6e6"
+      Hint: Answer
+      Value: We see this every year, where we find either an individual or a team of two, get in touch with me. I can try to pair you up with others in the similar situation and help you form a team.

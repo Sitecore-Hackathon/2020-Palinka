@@ -41,7 +41,10 @@
   <ItemGroup>
     <Folder Include="Routes\" />
     <Folder Include="Services\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\StandardContent\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Views\Faq\FaqList.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 </Project>
