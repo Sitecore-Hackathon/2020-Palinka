@@ -16,5 +16,9 @@
         IEnumerable<ITeamMember> Members { get; set; }
 
         DateTime Created { get; set; }
+
+        ICategory Category { get; set; }
+
+        string GitHubLink { get; set; }
     }
 }

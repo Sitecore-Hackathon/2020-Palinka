@@ -17,6 +17,7 @@
             {
                 config.AutoMap();
                 config.TemplateId(TemplateId);
+                config.EnforceTemplate();
                 config.Field(f => f.FirstName).FieldId(FirstName);
                 config.Field(f => f.LastName).FieldId(LastName);
                 config.Field(f => f.Twitter).FieldId(Twitter);

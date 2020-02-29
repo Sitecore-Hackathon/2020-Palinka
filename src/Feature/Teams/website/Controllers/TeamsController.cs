@@ -65,5 +65,17 @@ namespace Hackathon.Feature.Teams.Controllers
         {
             return new EmptyResult();
         }
+
+        public ActionResult CurrentWinners()
+        {
+            var model = this.contextRepository.GetCurrentItem<IWinners>();
+            return View(model);
+        }
+
+        public ActionResult PreviousWinners()
+        {
+            var model = this.contextRepository.GetCurrentItem<IWinners>();
+            return View(model);
+        }
     }
 }

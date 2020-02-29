@@ -1,0 +1,29 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.Teams.Models.IWinners
+
+<div class="row">
+    <div class="span12">
+        <h4>Current Winners</h4>
+    </div>
+
+    @foreach (var team in Model.CurrentWinners)
+    {
+        <div class="span3">
+            <div class="service-box aligncenter flyIn animated fadeInUp">
+                <div class="icon">
+                    <i class="icon-circled icon-bgsuccess icon-trophy icon-4x"></i>
+                </div>
+                <h5>@team.Name</h5>
+                @if (team.Category != null)
+                {
+                    <h6>@team.Category.Title</h6>
+                    <p>
+                        @team.Category.Description
+                    </p>
+                }
+                <a href="@team.GitHubLink" class="btn btn-danger">GitHub Repository</a>
+            </div>
+        </div>
+    }
+
+</div>
