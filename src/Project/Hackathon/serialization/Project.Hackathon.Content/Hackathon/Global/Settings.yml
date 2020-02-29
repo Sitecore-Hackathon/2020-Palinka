@@ -1,0 +1,34 @@
+﻿---
+ID: "e28f8b48-d5c1-40f1-9bf2-4f356965c78e"
+Parent: "a764f8d7-e505-4c60-acee-7f4416095d5f"
+Template: "1af2f75c-9fcc-458b-8d52-db16c8aca436"
+Path: /sitecore/content/Hackathon/Global/Settings
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184412Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6a9ebcf2-cdfa-43f9-b57c-a6293742ece2"
+      Hint: Submission Target
+      Value: "{D0CA9063-241D-4B23-B942-67439C03D85E}"
+    - ID: "ccab4e55-8aa4-4bf4-8701-45cf3592d33b"
+      Hint: Submission Start
+      Value: 20191231T230000Z
+    - ID: "cdd475dd-b36c-4341-a785-095b78968daf"
+      Hint: Submission End
+      Value: 20200630T220000Z
+    - ID: "e83c71eb-3485-49ab-b21f-3b50ad5a2b37"
+      Hint: Event Date
+      Value: 20200229T192800Z
