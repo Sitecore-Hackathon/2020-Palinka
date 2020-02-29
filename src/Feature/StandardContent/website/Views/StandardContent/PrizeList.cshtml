@@ -1,0 +1,31 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.StandardContent.Models.IPrizes
+
+<div class="row">
+    <div class="span12">
+        <h4>Prizes</h4>
+    </div>
+
+    @foreach (var prize in Model.Prizes)
+    {
+        <div class="span4">
+            <div class="box flyIn animated fadeInUp">
+                <div class="icon">
+                    <i class="ico icon-circled icon-bgdark @prize.Icon active icon-3x"></i>
+                </div>
+                <div class="text">
+                    <h4 class="">@Html.Glass().Editable(prize, x => x.Title)</h4>
+                    <p>
+                        @Html.Glass().Editable(prize, x => x.Description)
+                    </p>
+                    @using (Html.Glass().BeginRenderLink(prize, x => x.Link, isEditable: true))
+                    {
+                        @Html.Glass().Editable(prize, x => x.LinkText)
+                     }
+                    </div>
+            </div>
+        </div>
+    }
+        
+
+</div>

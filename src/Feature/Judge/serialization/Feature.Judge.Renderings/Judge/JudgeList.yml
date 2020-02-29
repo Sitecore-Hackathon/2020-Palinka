@@ -1,0 +1,28 @@
+﻿---
+ID: "c91a8f66-722d-41ae-84e1-70ae80b3bbc8"
+Parent: "2bcd9c2b-1d45-48c9-ae4f-644e89c96dd3"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/renderings/Feature/Judge/JudgeList
+DB: master
+SharedFields:
+- ID: "1c0af338-70a8-455f-8366-173135e03be6"
+  Hint: Placeholder
+  Value: judgeList
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: JudgeList
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Hackathon.Feature.Judge.Controllers.JudgeController, Hackathon.Feature.Judge
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T134414Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

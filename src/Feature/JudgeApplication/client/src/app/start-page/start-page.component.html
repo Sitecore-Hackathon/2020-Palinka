@@ -1,0 +1,32 @@
+<div class="card mb-3">
+  <div class="card-block">
+    <h1 class="card-title">Teams</h1>
+  
+    <br>
+    <div class="row">
+      <div class="col-12">
+        <div *ngIf="errorMessage" class="errorMessage">
+          {{errorMessage.Message}}
+        </div>
+        <table *ngIf="!isLoading && result" scTable>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Reviewed</th>              
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of result">
+              <td>
+                <a  [routerLink]="['/teamdetail']" [queryParams]="{itemid: item.ID}">&nbsp;{{item.TeamName}}</a>
+              </td>
+              <td>{{item.Reviewed}}</td>
+            </tr>
+          </tbody>
+        </table>
+        <sc-progress-indicator-panel [show]="isLoading">
+        </sc-progress-indicator-panel>
+      </div>
+    </div>
+  </div>
+</div>

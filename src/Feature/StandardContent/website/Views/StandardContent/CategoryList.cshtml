@@ -1,0 +1,27 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.StandardContent.Models.ICategories
+
+<div class="row">
+    <div class="span12">
+        <h4 class="title">Categories</h4>
+    </div>
+    <div class="span12">
+        <div class="row">
+            @foreach (var item in Model.Categories)
+            {
+                <div class="span4">
+                    <div class="box flyIn animated fadeInUp">
+                        <div class="text">
+                            <h4 class="">@Html.Glass().Editable(item, x => x.Title)</h4>
+                            <p>
+                                @Html.Glass().Editable(item, x => x.Description)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</div>

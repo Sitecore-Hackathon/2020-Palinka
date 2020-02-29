@@ -3,7 +3,6 @@
     using Glass.Mapper.Sc.Maps;
     using Hackathon.Feature.Teams.Models;
 
-
     public class TeamMap : SitecoreGlassMap<ITeam>
     {
         public override void Configure()
@@ -17,6 +16,8 @@
                 config.Field(f => f.Email).FieldId(Constants.Team.EmailFieldId);
                 config.Children(f => f.Members);
                 config.Field(f => f.Created).FieldId(Sitecore.FieldIDs.Created);
+                config.Field(f => f.Category).FieldId(Constants.Team.CategoryFieldId);
+                config.Field(f => f.GitHubLink).FieldId(Constants.Team.GitHubLinkFieldId);
             });
         }
     }

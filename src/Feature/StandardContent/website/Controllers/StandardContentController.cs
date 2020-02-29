@@ -30,5 +30,17 @@ namespace Hackathon.Feature.StandardContent.Controllers
             var model = contextRepository.GetCurrentItem<IImage>();
             return View(model);
         }
+
+        public ActionResult CategoryList()
+        {
+            var model = contextRepository.GetCurrentItem<ICategories>();
+            return View(model);
+        }
+
+        public ActionResult PrizeList()
+        {
+            var model = contextRepository.GetCurrentItem<IPrizes>();
+            return View(model);
+        }
     }
 }

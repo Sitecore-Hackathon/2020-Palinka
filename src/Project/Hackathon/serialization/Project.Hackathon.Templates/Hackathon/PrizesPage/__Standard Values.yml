@@ -1,0 +1,51 @@
+﻿---
+ID: "0be2c752-a084-486c-8b8f-18ead3c0c90b"
+Parent: "6c0aa51d-d38e-43ea-b91a-4be3ebc74cd4"
+Template: "6c0aa51d-d38e-43ea-b91a-4be3ebc74cd4"
+Path: /sitecore/templates/Project/Hackathon/PrizesPage/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B5355668-FF81-4CDD-879C-04DD0A3223EF}
+    {0B175727-957E-4033-B017-A90D2B1FB948}
+    {8EFE6304-30B2-4246-82C9-3A629ADA03A2}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CD1590E1-6573-4CC7-B0A9-E3BB6A9DADE4}">
+        <r
+          id="{D45B370F-F107-4629-A8F4-1438DAD9A3C5}"
+          ph="header"
+          uid="{7B6761FB-CC25-48E8-85A3-37F64E1938AC}" />
+        <r
+          id="{B3C648F4-3788-42DA-A2BE-D95C904D067B}"
+          ph="footer"
+          uid="{29C0D2AC-0074-42F6-9844-4DA274F6B625}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T083545Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
+      Hint: Navigation Title
+      Value: Prizes
+    - ID: "9ae137f5-6d7c-4b66-920e-aff7ae8ce7d3"
+      Hint: Hide In Navigation
+      Type: Checkbox
+      Value: 1

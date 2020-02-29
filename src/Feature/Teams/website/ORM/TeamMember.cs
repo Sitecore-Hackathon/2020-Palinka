@@ -11,6 +11,7 @@
             {
                 config.AutoMap();
                 config.TemplateId(Constants.TeamMember.TemplateId);
+                config.EnforceTemplate();
                 config.Field(f => f.FirstName).FieldId(Constants.TeamMember.FirstName);
                 config.Field(f => f.LastName).FieldId(Constants.TeamMember.LastName);
                 config.Field(f => f.Twitter).FieldId(Constants.TeamMember.Twitter);

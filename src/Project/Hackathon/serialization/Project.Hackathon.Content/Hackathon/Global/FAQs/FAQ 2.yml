@@ -1,0 +1,24 @@
+﻿---
+ID: "658915bd-d730-41af-a4af-e7553beb0951"
+Parent: "6bee8f37-be1c-4f3f-afff-1eeefad6c464"
+Template: "826df816-63a5-4bd8-abbe-69afc9e2c660"
+Path: /sitecore/content/Hackathon/Global/FAQs/FAQ 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T190826Z
+    - ID: "32d90729-eead-44d0-9068-d064223d4ccc"
+      Hint: Question
+      Value: "Can I team up with other members not in the same organization and form a team?"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "826742a0-8023-4244-8466-06ce6691d6e6"
+      Hint: Answer
+      Value: Absolutely, you can team up with any other Sitecore developer to form a team.

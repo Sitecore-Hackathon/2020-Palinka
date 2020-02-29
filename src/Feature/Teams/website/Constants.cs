@@ -8,6 +8,8 @@
             public const string TeamNameFieldId = "{2CD222E4-ACC3-470C-847E-80A58A3C560E}";
             public const string CountryFieldId = "{47066361-2E99-429E-93F7-5F2CD6C9FD73}";
             public const string EmailFieldId = "{181D51F8-192B-4181-9AE3-D7C310093D00}";
+            public const string CategoryFieldId = "{5EBB2B1F-274C-4E72-94FE-9696E3A108C8}";
+            public const string GitHubLinkFieldId = "{24977A58-3223-45CF-AC9D-A850AD02C3EA}";
         }
 
         public struct TeamMember
