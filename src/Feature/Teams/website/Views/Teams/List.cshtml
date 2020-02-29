@@ -10,7 +10,7 @@
     @foreach (var team in Model.Teams)
     {
         <div class="span3">
-            <div class="pricing-box-wrap">
+            <div class="pricing-box-wrap special">
                 <div class="pricing-heading">
                     <h3>@team.TeamName</h3>
                 </div>
@@ -28,6 +28,11 @@
                                 @if (!string.IsNullOrEmpty(member.LinkedIn))
                                 {<a href="@member.LinkedIn"><i class="icon-linkedin">&nbsp;</i></a>}
                             </li>
+                        }
+
+                        @for(int i = team.Members.Count(); i < 3; i++)
+                        {
+                            <li>&nbsp;</li>
                         }
                     </ul>
                 </div>
