@@ -1,0 +1,24 @@
+﻿---
+ID: "91983653-7c24-448e-a9ab-00de5ad1a57c"
+Parent: "42fb8c0f-e027-47c3-9eeb-eaafe70baa2f"
+Template: "a7c090e1-8f3c-4747-b0d1-a52d2b04f12a"
+Path: /sitecore/content/Hackathon/Global/Navigation/SocialLinks
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T123453Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "75753094-8fc4-41d8-a437-a2f526be431a"
+      Hint: Links
+      Type: Multilist
+      Value: |
+        {5B0CE955-A488-4267-B87A-1B96CE86D72D}
+        {2C71878C-631D-4E02-A1C4-C3F50463D0BE}

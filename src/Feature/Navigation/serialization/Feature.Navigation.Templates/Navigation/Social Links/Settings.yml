@@ -1,0 +1,14 @@
+﻿---
+ID: "d748ad09-c102-4cea-9d6c-66f013e4a48a"
+Parent: "a7c090e1-8f3c-4747-b0d1-a52d2b04f12a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Navigation/Social Links/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100602Z

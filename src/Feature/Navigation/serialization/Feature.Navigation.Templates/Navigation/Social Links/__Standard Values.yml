@@ -1,0 +1,23 @@
+﻿---
+ID: "25e4fc59-16c8-4416-b5f0-65bba00d953a"
+Parent: "a7c090e1-8f3c-4747-b0d1-a52d2b04f12a"
+Template: "a7c090e1-8f3c-4747-b0d1-a52d2b04f12a"
+Path: /sitecore/templates/Feature/Navigation/Social Links/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{E54A6378-DE0C-4A2D-A92A-2DFA3E05547F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T111310Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
