@@ -4,6 +4,20 @@ Parent: "951db760-fd07-4e90-865a-89f0273256bd"
 Template: "c59cda37-98cc-47c0-93b9-4cd21317b3ea"
 Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Teams
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2ABAFA45-3939-46EC-B8E4-A0B434945D26}"
+          s:par="Teams Folder=%7BD0CA9063-241D-4B23-B942-67439C03D85E%7D" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -12,6 +26,12 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T084444Z
+    - ID: "2d0a26bb-8c8d-48ca-bb1f-e76461e6c239"
+      Hint: Teams Title
+      Value: Teams in 2020
     - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
       Hint: Navigation Title
       Value: Teams
+    - ID: "be23b3e2-d583-428c-afdf-2eb54cec82ca"
+      Hint: Teams Folder
+      Value: "{D0CA9063-241D-4B23-B942-67439C03D85E}"

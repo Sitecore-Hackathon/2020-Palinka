@@ -8,6 +8,8 @@
     {
         public IEnumerable<INavigationBase> Pages { get; set; }
 
+        public IEnumerable<ISocialLink> SocialLinks { get; set; }
+
         public bool HasSubPages(INavigationBase page)
         {
             if (page == null)

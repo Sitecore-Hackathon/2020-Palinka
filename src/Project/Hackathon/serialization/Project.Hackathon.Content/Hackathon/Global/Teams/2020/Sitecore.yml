@@ -1,0 +1,24 @@
+﻿---
+ID: "524ae7f3-fc78-448a-914b-e7a259535668"
+Parent: "d0ca9063-241d-4b23-b942-67439c03d85e"
+Template: "ff34c006-bcd7-49cf-9b17-d72917f4e18b"
+Path: /sitecore/content/Hackathon/Global/Teams/2020/Sitecore
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T121829Z
+    - ID: "2cd222e4-acc3-470c-847e-80a58a3c560e"
+      Hint: Team Name
+      Value: Sitecore
+    - ID: "47066361-2e99-429e-93f7-5f2cd6c9fd73"
+      Hint: Country
+      Value: India

@@ -1,0 +1,22 @@
+﻿---
+ID: "4418f0bb-82da-45fc-bb77-9c1e9527984c"
+Parent: "73a579d8-e36e-4465-90fb-dc11e1c4df76"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Teams/_TeamsReference
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{EFD4D90B-1FC4-431A-99EA-97C13E2BC97A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T140225Z

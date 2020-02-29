@@ -1,0 +1,23 @@
+﻿---
+ID: "a236ea8c-6d96-4871-82f3-c08bf4b57c8f"
+Parent: "9adbdbfa-bd93-4c3a-b76b-e1a746bb6702"
+Template: "9adbdbfa-bd93-4c3a-b76b-e1a746bb6702"
+Path: /sitecore/templates/Feature/Teams/Teams in Year/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FF34C006-BCD7-49CF-9B17-D72917F4E18B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T120432Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

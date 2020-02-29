@@ -1,0 +1,25 @@
+﻿---
+ID: "5b0ce955-a488-4267-b87a-1b96ce86d72d"
+Parent: "91983653-7c24-448e-a9ab-00de5ad1a57c"
+Template: "e54a6378-de0c-4a2d-a92a-2dfa3e05547f"
+Path: /sitecore/content/Hackathon/Global/Navigation/SocialLinks/Twitter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T123528Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "857a3a23-8390-4424-9727-7e1709df514f"
+      Hint: Link
+      Value: |
+        <link text="https://twitter.com/hashtag/schackathon?src=hashtag_click" linktype="external" url="https://twitter.com/hashtag/schackathon?src=hashtag_click" anchor="" target="" />
+    - ID: "cb3f43b5-b230-4b5f-bbd8-907b6d03a59f"
+      Hint: Social Type
+      Value: twitter

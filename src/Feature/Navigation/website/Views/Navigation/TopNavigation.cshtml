@@ -1,24 +1,63 @@
 @using Glass.Mapper.Sc.Web.Mvc
 @model Hackathon.Feature.Navigation.ViewModels.TopNavigation
 
-<a href="/">
-    Home page
-</a>
+<!-- start header -->
+<header>
+    <div class="top">
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                   
+                </div>
+                <div class="span6">
 
-<ul>
-    @foreach (var page in Model.Pages)
-    {
-    <li>
-        <a href="@page.PageUrl">@page.NavigationTitle</a>
-        @if (Model.HasSubPages(page))
-        {<ul>
-            @foreach (var subpage in Model.GetSubPages(page))
-        {
-            <li>
-                <a href="@subpage.PageUrl">@subpage.NavigationTitle</a>
-            </li>
-        }
-        </ul>}
-    </li>
-    }
-</ul>
+                    <ul class="social-network">
+                        @foreach (var link in Model.SocialLinks)
+                        {
+                            <li><a href="@link.Link.Url" data-placement="bottom" title="" data-original-title="@link.SocialType"><i class="icon-@link.SocialType icon-white"></i></a></li>
+                        }
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row nomargin">
+            <div class="span4">
+                <div class="logo">
+                    <a href="i/"><img src="/content/img/hackathon.png" alt="" width="100" /></a>
+                </div>
+            </div>
+            <div class="span8">
+                <div class="navbar navbar-static-top">
+                    <div class="navigation">
+                        <nav>
+                            <ul class="nav topnav">
+                                @foreach (var page in Model.Pages)
+                                {
+                                    <li class="@(Model.HasSubPages(page) ? "dropdown": "")">
+                                        <a href="@page.PageUrl">@page.NavigationTitle</a>
+                                        @if (Model.HasSubPages(page))
+                                        {<ul class="dropdown-menu">
+                                                @foreach (var subpage in Model.GetSubPages(page))
+                                                {
+                                                    <li>
+                                                        <a href="@subpage.PageUrl">@subpage.NavigationTitle</a>
+                                                    </li>
+                                                }
+                                            </ul>}
+                                    </li>
+                                }
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- end navigation -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end header -->
