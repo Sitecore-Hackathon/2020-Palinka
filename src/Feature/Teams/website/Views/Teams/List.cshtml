@@ -1,15 +1,38 @@
 @using Glass.Mapper.Sc.Web.Mvc
-@model Hackathon.Feature.Teams.Models.IFooterNavigation
+@model Hackathon.Feature.Teams.ViewModels.TeamList
 
-<p>
-    @Html.Glass().Editable(t => t.CopyrightText)
-</p>
+<div class="row">
+    @if (!string.IsNullOrEmpty(Model.Title))
+    {<div class="span12">
+        <h4>@Model.Title</h4>
+    </div>}
 
-@if (Model.Links.Any())
-{
-    foreach (var link in Model.Links)
+    @foreach (var team in Model.Teams)
     {
-        <spen> | </spen>
-        @Html.Glass().RenderLink(link, t => t.Link, isEditable: true)
+        <div class="span3">
+            <div class="pricing-box-wrap">
+                <div class="pricing-heading">
+                    <h3>@team.TeamName</h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6>@team.Country</h6>
+                </div>
+                <div class="pricing-content">
+                    <ul>
+                        @foreach (var member in team.Members)
+                        {
+                            <li>
+                                @member.FirstName @member.LastName
+                                @if (!string.IsNullOrEmpty(member.Twitter))
+                                {<a href="@member.Twitter"><i class="icon-twitter">&nbsp;</i></a>}
+                                @if (!string.IsNullOrEmpty(member.LinkedIn))
+                                {<a href="@member.LinkedIn"><i class="icon-linkedin">&nbsp;</i></a>}
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
     }
-}
+
+</div>

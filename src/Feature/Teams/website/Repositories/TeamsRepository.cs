@@ -24,15 +24,32 @@
             this.contentRepository = contentRepository;
         }
 
-        public IEnumerable<ITeam> GetAll(string folderPath)
+        public IEnumerable<ITeam> GetAll(ITeamsFolder folder)
         {
-            var folder = this.contentRepository.GetItem<ITeamsFolder>(new Glass.Mapper.Sc.GetItemByPathOptions(folderPath));
             if (folder != null)
             {
                 return folder.Teams.ToArray();
             }
 
             return new ITeam[0];
+        }
+
+        public IEnumerable<ITeam> GetLatest(ITeamsFolder folder, int count)
+        {
+            return GetAll(folder)
+                .OrderByDescending(t => t.Created)
+                .Take(count).ToArray();
+        }
+
+        public IEnumerable<ITeam> GetAll(string folderPath)
+        {
+            if (string.IsNullOrEmpty(folderPath))
+            {
+                throw new System.ArgumentNullException(folderPath);
+            }
+
+            var folder = this.contentRepository.GetItem<ITeamsFolder>(new Glass.Mapper.Sc.GetItemByPathOptions(folderPath));
+            return GetAll(folder);
         }
 
         public IEnumerable<ITeam> GetLatest(string folderPath, int count)
