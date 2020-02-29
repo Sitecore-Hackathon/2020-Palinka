@@ -15,6 +15,8 @@ namespace Hackathon.Feature.Navigation.Controllers
 
         private const string FooterSettingRelativePath = "/Global/Navigation/FooterNavigation";
 
+        private const string SocialLinksRelativePaths = "/Global/Navigation/SocialLinks";
+
         public NavigationController(IContextRepository contextRepository, IContentRepository contentRepository)
         {
             this.contextRepository = contextRepository;
@@ -27,6 +29,8 @@ namespace Hackathon.Feature.Navigation.Controllers
             var homeItem = contextRepository.GetHomeItem<INavigationBase>();
             model.Pages = homeItem.SubPages.Where(t => !t.HideInNavigation).ToArray();
 
+            string socialLinksPath = Sitecore.Context.Site.RootPath + SocialLinksRelativePaths;
+            model.SocialLinks = contentRepository.GetItem<ISocialNavigation>(new Glass.Mapper.Sc.GetItemByPathOptions(socialLinksPath)).SocialLinks;
             return View(model);
         }
 

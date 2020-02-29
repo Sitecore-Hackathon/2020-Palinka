@@ -9,9 +9,26 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "01e07abd-bb4b-4dc5-8b52-b57c70e30c05"
+      Hint: Pinterest Widget
+      Value: |
+        <!--<div id="ultimatepinterestdisplaywidget-2" class="widget widget_ultimatepinterestdisplaywidget"><div class="widget-title">Ultimate Pinterest Display Widget</div><div id='ultimate-pinterest-display-widget' class=''><a data-pin-do='embedBoard' href='https://www.pinterest.com/akshaysura/sitecore-hackathon-2018/' data-pin-scale-width='92' data-pin-scale-height='175' data-pin-board-width='300'>Follow Pinterest's board Pin pets on Pinterest.</a><div class='copy' style='color:#ccc; font-size: 9px; '><a href='http://www.expressmedrefills.com/' title='Click here' target='_blank'>Online Doctor</a></div></div><script type='text/javascript' async src='//assets.pinterest.com/js/pinit.js'></div>			-->
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T100819Z
+    - ID: "286b3d46-05bf-4e67-8cb8-c20634578dd9"
+      Hint: Center Column
+      Value: |
+        <h5 class="widgetheading">Get in touch</h5>
+                                    <address>
+                                        <strong>Eterna company Inc.</strong><br />
+                                        Somestreet 200 VW, Suite Village A.001<br />
+                                        Jakarta 13426 Indonesia
+                                    </address>
+                                    <p>
+                                        <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br />
+                                        <i class="icon-envelope-alt"></i> email@domainname.com
+                                    </p>
     - ID: "4f7d4b1c-e6d3-423a-827e-214f09e9c8ec"
       Hint: Links
       Type: Multilist
@@ -22,6 +39,9 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "6743e1ad-ef01-4f5f-8f0c-0edd11ee1819"
+      Hint: Links Title
+      Value: Browse pages
     - ID: "c1745165-d2ba-45b0-bc4b-88247418f9c7"
       Hint: Copyright Text
       Value: Hackathon 2020
