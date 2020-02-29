@@ -6,6 +6,23 @@ Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Prizes
 DB: master
 BranchID: "557a9040-3e6b-4ed4-b964-5062547c61c0"
 SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{CAC8F5F9-76C3-4C29-8354-291CE8F07F16}"
+          p:after="*[1=2]"
+          s:ds="{DBF710F7-0B92-4504-A8FF-D5DFE848A435}"
+          s:id="{E3572080-9225-43D9-9DD4-89B2875D7CEA}"
+          s:par=""
+          s:ph="main" />
+      </d>
+    </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{B5025957-4219-4AA0-B7B7-EBCDBF3E73F3}"
