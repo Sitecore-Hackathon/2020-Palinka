@@ -1,0 +1,22 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.Teams.ViewModels.SubmissionPage
+
+<div class="row">
+    <h1>@Html.Sitecore().Field("Submission Title")</h1>
+</div>
+
+@if(Model.Enabled)
+{
+<div class="row">
+    @Html.Sitecore().Field("Submission Intro")
+</div>
+
+@Html.Sitecore().Placeholder("form")
+}
+else {
+<div class="row">
+    @Html.Sitecore().Field("Submission Not Available")
+</div>
+}
+
+

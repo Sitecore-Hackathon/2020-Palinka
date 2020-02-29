@@ -4,6 +4,27 @@ Parent: "1d5c266a-112f-4ea2-a69e-e4865ace2200"
 Template: "8efe6304-30b2-4246-82c9-3a629ada03a2"
 Path: /sitecore/content/Hackathon/Home/Submission
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9073135D-EDF6-42D4-9F79-5E20EF9D6798}"
+          p:after="r[@uid='{7B6761FB-CC25-48E8-85A3-37F64E1938AC}']"
+          s:ds="{57C135A9-331E-47D8-A59B-B940DC0D4434}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
+          s:ph="form" />
+        <r
+          uid="{29C0D2AC-0074-42F6-9844-4DA274F6B625}"
+          p:after="*[1=2]" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -12,6 +33,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T084506Z
+    - ID: "5997d090-701e-4eae-8695-6bd28a70df68"
+      Hint: Submission Intro
+      Value: Please fill the form for registering your Team.
+    - ID: "801e7824-b923-4874-a7e0-a2f8dc68e071"
+      Hint: Submission Title
+      Value: Register to Hackathon 2020
     - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
       Hint: Navigation Title
       Value: Submission
+    - ID: "f05c08a5-2219-4d85-99b2-325be490b4cc"
+      Hint: Submission Not Available
+      Value: "The team registration is disabled!"

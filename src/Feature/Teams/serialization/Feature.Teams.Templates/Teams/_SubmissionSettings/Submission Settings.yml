@@ -1,0 +1,14 @@
+﻿---
+ID: "18e126b2-f65b-4821-ae46-6613811f25df"
+Parent: "bd4c1a40-69f3-42b4-b0ab-c9ddb3206635"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Teams/_SubmissionSettings/Submission Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184217Z

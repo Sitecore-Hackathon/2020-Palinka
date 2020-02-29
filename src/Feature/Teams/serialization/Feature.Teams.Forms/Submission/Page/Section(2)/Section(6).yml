@@ -1,0 +1,22 @@
+﻿---
+ID: "ca76c6e8-ad50-4842-a982-492c69501bc2"
+Parent: "826255d3-0419-42da-9f1e-d196b4198782"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: /sitecore/Forms/Submission/Page/Section(2)/Section(6)
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 2BEFA99C55444B048BC84B6C00DB7D02
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T154206Z

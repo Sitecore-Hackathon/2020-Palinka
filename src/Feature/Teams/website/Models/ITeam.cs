@@ -13,6 +13,8 @@
 
         string Country { get; set; }
 
+        string Email { get; set; }
+
         IEnumerable<ITeamMember> Members { get; set; }
 
         DateTime Created { get; set; }

@@ -1,0 +1,27 @@
+﻿---
+ID: "f87a0d15-3cf6-48b0-bad8-c9a56bc3fe97"
+Parent: "3b467a24-613c-4746-a1b0-410ca925b7fd"
+Template: "0b175727-957e-4033-b017-a90d2b1fb948"
+Path: /sitecore/content/Hackathon/Home/Submission/Completed
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T084615Z
+    - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
+      Hint: Navigation Title
+      Value: Sample
+    - ID: "d1e02ded-451b-4fb2-a2c4-2ac103851b2a"
+      Hint: Image
+      Value: 
+    - ID: "f43d41b9-c1a8-4b0b-9c47-cb09cd05e37e"
+      Hint: Text
+      Value: "Thank you for your submission!"

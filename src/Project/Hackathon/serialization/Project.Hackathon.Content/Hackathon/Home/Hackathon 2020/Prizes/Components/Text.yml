@@ -16,3 +16,7 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "f43d41b9-c1a8-4b0b-9c47-cb09cd05e37e"
+      Hint: Text
+      Value: |
+        <div style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;"><strong style="margin: 0px; padding: 0px; border: 0px;"><span style="background-color: #ffffff; text-align: justify; color: #000000;">A&nbsp;</span><strong style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px; text-align: justify;">Lorem Ipsum</strong><span style="background-color: #ffffff; text-align: justify; color: #000000;">&nbsp;egy egyszer&ucirc; sz&ouml;vegr&eacute;szlete, sz&ouml;vegut&aacute;nzata a bet&ucirc;szed&otilde; &eacute;s nyomdaiparnak. A Lorem Ipsum az 1500-as &eacute;vek &oacute;ta standard sz&ouml;vegr&eacute;szletk&eacute;nt szolg&aacute;lt az iparban; mikor egy ismeretlen nyomd&aacute;sz &ouml;ssze&aacute;ll&iacute;totta a bet&ucirc;k&eacute;szlet&eacute;t &eacute;s egy p&eacute;lda-k&ouml;nyvet vagy sz&ouml;veget nyomott pap&iacute;rra, ezt haszn&aacute;lta. Nem csak 5 &eacute;vsz&aacute;zadot &eacute;lt t&uacute;l, de az elektronikus bet&ucirc;k&eacute;szletekn&eacute;l is v&aacute;ltozatlanul megmaradt. Az 1960-as &eacute;vekben n&eacute;pszer&ucirc;s&iacute;tett&eacute;k a Lorem Ipsum r&eacute;szleteket magukbafoglal&oacute; Letraset lapokkal, &eacute;s legut&oacute;bb softwarekkel mint p&eacute;ld&aacute;ul az Aldus Pagemaker.</span></strong></div>
