@@ -42,6 +42,6 @@
     <Folder Include="Routes\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
-    <Folder Include="Views\Navigation\" />
+    <Folder Include="Views\StandardContent\" />
   </ItemGroup>
 </Project>

@@ -16,3 +16,11 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T084615Z
+    - ID: "d1e02ded-451b-4fb2-a2c4-2ac103851b2a"
+      Hint: Image
+      Value: |
+        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+    - ID: "f43d41b9-c1a8-4b0b-9c47-cb09cd05e37e"
+      Hint: Text
+      Value: |
+        <span style="background-color: #ffffff; color: #555555;">Teams that have signed up by&nbsp;</span><strong style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">6 pm EST February 14, 2020</strong><span style="background-color: #ffffff; color: #555555;">&nbsp;will have the opportunity to participate in the contest. Eligible teams will have 24 hours &mdash; starting&nbsp;</span><strong style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">Friday February 28th 2020 at 8PM EST</strong><span style="background-color: #ffffff; color: #555555;">&nbsp;and ending&nbsp;</span><strong style="color: #555555; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px;">Saturday February 29th 2020 at 8PM EST</strong><span style="background-color: #ffffff; color: #555555;">&nbsp;&ndash; to build and submit a Sitecore module best implementing the idea for the Hackathon, as determined by our panel of judges. The idea(s) will be announced an hour before the Hackathon starts on February 28th.</span>
