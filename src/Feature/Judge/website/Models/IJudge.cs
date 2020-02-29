@@ -1,7 +1,7 @@
 ﻿namespace Hackathon.Feature.Judge.Models
 {
+    using Glass.Mapper.Sc.Fields;
     using Hackathon.Foundation.ORM.Models;
-    using System.Drawing;
 
     public interface IJudge : IGlassBase
     {

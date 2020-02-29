@@ -39,7 +39,6 @@
     <ProjectReference Include="..\..\..\Foundation\Search\website\Hackathon.Foundation.Search.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Routes\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
