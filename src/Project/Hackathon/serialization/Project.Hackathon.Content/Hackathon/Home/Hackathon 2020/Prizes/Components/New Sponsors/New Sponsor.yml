@@ -1,0 +1,33 @@
+﻿---
+ID: "3f1d1fc6-2b3c-4966-8d9f-063f7100398e"
+Parent: "af0c615e-ea65-4394-ba0e-ece7b0fabac7"
+Template: "a1c2c958-c0d8-4755-aa2b-20a6675a89be"
+Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Prizes/Components/New Sponsors/New Sponsor
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T203205Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "624f2c1a-a103-42b0-9ae6-b13ab3df4ba6"
+      Hint: SmallImage
+      Value: |
+        <image mediaid="{51CDB38D-4A2E-466D-BBA9-35532BFCA898}" />
+    - ID: "6b06a116-8744-4e83-a399-53f00ca3b01f"
+      Hint: LargeImage
+      Value: |
+        <image mediaid="{A3903956-3425-420A-A352-F8B6F8A4C383}" />
+    - ID: "792a2c34-eb5a-40a1-9789-a2e2122d32c2"
+      Hint: Fullname
+      Value: Sponsor 1
+    - ID: "93f77c49-dc8a-4859-b13a-2567971c5f26"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="http://www.sitecorehackathon.org/sitecore-hackathon-2020/" />

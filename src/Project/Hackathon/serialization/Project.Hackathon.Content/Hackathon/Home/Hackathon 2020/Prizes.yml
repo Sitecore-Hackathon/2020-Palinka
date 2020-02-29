@@ -16,9 +16,16 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{CAC8F5F9-76C3-4C29-8354-291CE8F07F16}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{29C0D2AC-0074-42F6-9844-4DA274F6B625}']"
           s:ds="{DBF710F7-0B92-4504-A8FF-D5DFE848A435}"
           s:id="{E3572080-9225-43D9-9DD4-89B2875D7CEA}"
+          s:par=""
+          s:ph="main" />
+        <r
+          uid="{61171F6A-6D6F-4E57-B035-0A72BD6A24B9}"
+          p:after="*[1=2]"
+          s:ds="{AF0C615E-EA65-4394-BA0E-ECE7B0FABAC7}"
+          s:id="{72D33803-9329-42AE-B3EE-EFB8D2709C44}"
           s:par=""
           s:ph="main" />
       </d>
