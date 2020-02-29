@@ -1,0 +1,23 @@
+﻿---
+ID: "ab96ab87-0d0a-4ad3-b9cc-00a1d16d6bb4"
+Parent: "f4021284-7203-4373-bc07-45c637dd144b"
+Template: "f4021284-7203-4373-bc07-45c637dd144b"
+Path: /sitecore/templates/Project/Hackathon/Content Types/Statistics Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{06FC45DB-BA5F-4AAA-8406-38E796DAD130}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T201358Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -6,7 +6,6 @@ namespace Hackathon.Feature.Teams.Controllers
     using Hackathon.Foundation.Content.Repositories;
     using Sitecore.Mvc.Controllers;
     using System;
-    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Web.Mvc;
@@ -89,7 +88,7 @@ namespace Hackathon.Feature.Teams.Controllers
             var settings = this.teamsRepository.GetSubmitionSettings();
             var model = new SubmissionPage()
             {
-                Enabled = settings != null && 
+                Enabled = settings != null &&
                     DateTime.Today >= settings.StartDate.Date &&
                     DateTime.Today <= settings.EndDate.Date
             };
@@ -99,6 +98,25 @@ namespace Hackathon.Feature.Teams.Controllers
 
         public ActionResult Statistics()
         {
+            var datasource = this.renderingRepository.GetDataSourceItem<ITeamStatistics>();
+            if (datasource != null)
+            {
+                var model = new Statistics();
+                var teams = this.teamsRepository.GetAll(datasource.TeamsFolder);
+                model.CountryCount = this.teamsRepository.GetCountries(teams).Count;
+                model.TeamsCount = teams.Count();
+
+                model.Text = $"Countries: {model.CountryCount}, Teams: {model.TeamsCount}";
+                if (!string.IsNullOrEmpty(datasource.Text))
+                {
+                    model.Text = datasource.Text
+                        .Replace("#TEAMS_COUNT#", model.TeamsCount.ToString())
+                        .Replace("#COUNTRY_COUNT#", model.CountryCount.ToString());
+                }
+
+                return View(model);
+            }
+
             return new EmptyResult();
         }
 

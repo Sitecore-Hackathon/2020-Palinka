@@ -1,0 +1,31 @@
+﻿---
+ID: "a33cf2c8-e1c3-4bb4-b537-0f20bec4f35c"
+Parent: "61ea61d1-c9bd-4def-9e69-9d69e8c6dcc6"
+Template: "06fc45db-ba5f-4aaa-8406-38e796dad130"
+Path: /sitecore/content/Hackathon/Global/Statistics/Team Statistics Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T201601Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "99d2d89d-0924-40d4-b9ae-b3f943606fd2"
+      Hint: Text
+      Value: |
+        <h4>Hackathon 2020 statistics</h4>
+        <ul>
+            <li><strong>#TEAMS_COUNT# Teams</strong> participating</li>
+            <li>Entries from over <strong>#COUNTRY_COUNT#<strong>&nbsp;countries</strong></strong></li>
+        </ul>
+        <p><a href="~/link.aspx?_id=951DB760FD074E90865A89F0273256BD&amp;_z=z">Check here for more details about Hackathon 2020</a></p>
+        <p><a href="~/link.aspx?_id=8390FD2EA5474721835CFAE5D99003CB&amp;_z=z">Check here to view the Teams</a></p>
+    - ID: "f20331ad-5950-44ed-a565-439c643a13b6"
+      Hint: Teams
+      Value: "{D0CA9063-241D-4B23-B942-67439C03D85E}"
