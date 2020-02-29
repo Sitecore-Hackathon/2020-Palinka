@@ -4,8 +4,8 @@ namespace Hackathon.Feature.Teams.Controllers
     using Hackathon.Feature.Teams.Repositories;
     using Hackathon.Feature.Teams.ViewModels;
     using Hackathon.Foundation.Content.Repositories;
-    using Hackathon.Foundation.ORM.Models;
     using Sitecore.Mvc.Controllers;
+    using System;
     using System.Web.Mvc;
 
     /// <summary>
@@ -52,7 +52,7 @@ namespace Hackathon.Feature.Teams.Controllers
             }
 
             var model = new TeamList();
-            if(reference != null)
+            if (reference != null)
             {
                 model.Teams = this.teamsRepository.GetAll(reference.TeamsFolder);
                 model.Title = reference.TeamsTitle;
@@ -79,6 +79,19 @@ namespace Hackathon.Feature.Teams.Controllers
             }
 
             return new EmptyResult();
+        }
+
+        public ActionResult SubmissionPage()
+        {
+            var settings = this.teamsRepository.GetSubmitionSettings();
+            var model = new SubmissionPage()
+            {
+                Enabled = settings != null && 
+                    DateTime.Today >= settings.StartDate.Date &&
+                    DateTime.Today <= settings.EndDate.Date
+            };
+
+            return View(model);
         }
 
         public ActionResult Statistics()

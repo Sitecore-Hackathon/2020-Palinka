@@ -1,0 +1,21 @@
+﻿---
+ID: "ccab4e55-8aa4-4bf4-8701-45cf3592d33b"
+Parent: "18e126b2-f65b-4821-ae46-6613811f25df"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Teams/_SubmissionSettings/Submission Settings/Submission Start
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Date
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T184217Z

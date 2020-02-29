@@ -19,7 +19,7 @@ SharedFields:
           s:ds="{57C135A9-331E-47D8-A59B-B940DC0D4434}"
           s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
           s:par=""
-          s:ph="main" />
+          s:ph="form" />
         <r
           uid="{29C0D2AC-0074-42F6-9844-4DA274F6B625}"
           p:after="*[1=2]" />
@@ -33,6 +33,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T084506Z
+    - ID: "5997d090-701e-4eae-8695-6bd28a70df68"
+      Hint: Submission Intro
+      Value: Please fill the form for registering your Team.
+    - ID: "801e7824-b923-4874-a7e0-a2f8dc68e071"
+      Hint: Submission Title
+      Value: Register to Hackathon 2020
     - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
       Hint: Navigation Title
       Value: Submission
+    - ID: "f05c08a5-2219-4d85-99b2-325be490b4cc"
+      Hint: Submission Not Available
+      Value: "The team registration is disabled!"

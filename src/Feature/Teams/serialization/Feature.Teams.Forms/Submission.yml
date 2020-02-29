@@ -12,6 +12,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 
+- ID: "c0ce58b7-2592-439d-b197-ca27bf69f7b2"
+  Hint: Is Robot Detection Enabled
+  Type: Checkbox
+  Value: 0
 Languages:
 - Language: en
   Versions:

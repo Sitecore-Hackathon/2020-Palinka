@@ -1,8 +1,8 @@
 ﻿---
 ID: "1a0e90a6-a260-40db-a1e4-5338625ffc4b"
-Parent: "3ab26534-592c-450e-929d-b7dc884b49a0"
+Parent: "e9bb794a-b514-4ff5-8386-008fda7f7f66"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Common/Content Types/Teams Folder
+Path: /sitecore/templates/Project/Hackathon/Content Types/Teams Folder
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
