@@ -26,6 +26,8 @@ namespace Hackathon.Feature.JudgeApplication.Controllers
         {
         }
 
+        private string TeamsQuery => $"/sitecore/content/Hackathon/Global/Teams/{DateTime.Now.Year.ToString()}/*";
+
         /// <summary>
         /// Teamses this instance.
         /// </summary>
