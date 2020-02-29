@@ -18,7 +18,11 @@ Languages:
       Value: 20200229T084615Z
     - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
       Hint: Navigation Title
-      Value: Sample
+      Value: Completed
+    - ID: "9ae137f5-6d7c-4b66-920e-aff7ae8ce7d3"
+      Hint: Hide In Navigation
+      Type: Checkbox
+      Value: 1
     - ID: "d1e02ded-451b-4fb2-a2c4-2ac103851b2a"
       Hint: Image
       Value: 

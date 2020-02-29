@@ -16,5 +16,15 @@
         IGlassBase TargetFolder { get; set; }
 
         DateTime EventDate { get; set; }
+
+        bool EmailNotification { get; set; }
+
+        string EmailFrom { get; set; }
+
+        string EmailTo { get; set; }
+
+        string EmailMessage { get; set; }
+
+        string EmailSubject { get; set; }
     }
 }

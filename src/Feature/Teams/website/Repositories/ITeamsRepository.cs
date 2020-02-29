@@ -16,5 +16,7 @@ namespace Hackathon.Feature.Teams.Repositories
 
         List<string> GetCountries(IEnumerable<ITeam> teams);
         IEnumerable<ITeamsFolder> GetAllTeamsFolder();
+
+        bool Exists(Guid parentId, string teamName);
     }
 }

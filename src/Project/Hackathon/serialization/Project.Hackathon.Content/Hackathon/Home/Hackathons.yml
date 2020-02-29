@@ -1,0 +1,17 @@
+﻿---
+ID: "34d64177-4edd-4f21-a521-dd1ed9cc750e"
+Parent: "1d5c266a-112f-4ea2-a69e-e4865ace2200"
+Template: "8a530d82-4ec4-400b-8d3e-024f7e847f3b"
+Path: /sitecore/content/Hackathon/Home/Hackathons
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T213136Z
+    - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
+      Hint: Navigation Title
+      Value: Hackathons

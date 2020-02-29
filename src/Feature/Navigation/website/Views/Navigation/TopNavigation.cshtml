@@ -27,7 +27,7 @@
         <div class="row nomargin">
             <div class="span4">
                 <div class="logo">
-                    <a href="i/"><img src="/content/img/hackathon.png" alt="" width="100" /></a>
+                    <a href="/"><img src="/content/img/hackathon.png" alt="" width="100" /></a>
                 </div>
             </div>
             <div class="span8">
@@ -37,18 +37,19 @@
                             <ul class="nav topnav">
                                 @foreach (var page in Model.Pages)
                                 {
-                                    <li class="@(Model.HasSubPages(page) ? "dropdown": "")">
-                                        <a href="@page.PageUrl">@page.NavigationTitle</a>
-                                        @if (Model.HasSubPages(page))
-                                        {<ul class="dropdown-menu">
-                                                @foreach (var subpage in Model.GetSubPages(page))
-                                                {
-                                                    <li>
-                                                        <a href="@subpage.PageUrl">@subpage.NavigationTitle</a>
-                                                    </li>
-                                                }
-                                            </ul>}
-                                    </li>
+                                <li class="@(Model.HasSubPages(page) ? "dropdown": "")">
+                                    <a href="@(page.HasUrl ? page.PageUrl : "#")">@page.NavigationTitle</a>
+
+                                    @if (Model.HasSubPages(page))
+                                    {<ul class="dropdown-menu">
+                                            @foreach (var subpage in Model.GetSubPages(page))
+                                            {
+                                                <li>
+                                                    <a href="@(subpage.HasUrl ? subpage.PageUrl : "#")">@subpage.NavigationTitle</a>
+                                                </li>
+                                            }
+                                        </ul>}
+                                </li>
                                 }
 
                             </ul>

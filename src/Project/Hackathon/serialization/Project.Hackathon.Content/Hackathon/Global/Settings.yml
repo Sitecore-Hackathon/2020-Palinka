@@ -16,6 +16,13 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T184412Z
+    - ID: "2a18b399-0385-483c-a3eb-e6dbe65da75f"
+      Hint: Email Subject
+      Value: Team registration
+    - ID: "4d3f67aa-fea5-4221-aecf-aaaecef22bcd"
+      Hint: Send Notification
+      Type: Checkbox
+      Value: 1
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -23,12 +30,21 @@ Languages:
     - ID: "6a9ebcf2-cdfa-43f9-b57c-a6293742ece2"
       Hint: Submission Target
       Value: "{D0CA9063-241D-4B23-B942-67439C03D85E}"
+    - ID: "9c85322a-c8ab-4890-a7a8-8ed215b9ae8e"
+      Hint: Email From
+      Value: noreply@possible.com
+    - ID: "cb857842-297d-4f62-87df-60af7b19a2f9"
+      Hint: Email To
+      Value: laszlo.benyasz@possible.com
     - ID: "ccab4e55-8aa4-4bf4-8701-45cf3592d33b"
       Hint: Submission Start
       Value: 20191231T230000Z
     - ID: "cdd475dd-b36c-4341-a785-095b78968daf"
       Hint: Submission End
       Value: 20200630T220000Z
+    - ID: "e0ea164e-c4b3-4953-b384-e11de449a86e"
+      Hint: Email Message
+      Value: New team registration is published, please check it
     - ID: "e83c71eb-3485-49ab-b21f-3b50ad5a2b37"
       Hint: Event Date
       Value: 20200229T192800Z

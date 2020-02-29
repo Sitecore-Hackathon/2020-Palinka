@@ -2,9 +2,8 @@
 ID: "02c59593-48f5-4a09-b719-efcf5b38ee9b"
 Parent: "951db760-fd07-4e90-865a-89f0273256bd"
 Template: "6c0aa51d-d38e-43ea-b91a-4be3ebc74cd4"
-Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Prizes
+Path: /sitecore/content/Hackathon/Home/Hackathons/Hackathon 2020/Prizes
 DB: master
-BranchID: "557a9040-3e6b-4ed4-b964-5062547c61c0"
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings

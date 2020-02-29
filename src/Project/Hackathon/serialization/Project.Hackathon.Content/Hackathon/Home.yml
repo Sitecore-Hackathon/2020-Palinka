@@ -50,14 +50,26 @@ Languages:
               s:id="{C7968011-82A5-4DB5-A239-A3B2BB8AFD66}"
               s:par=""
               s:ph="main" />
+            <r
+              uid="{B0538101-B1E2-4D2B-9E33-BA7755C7E778}"
+              p:after="r[@uid='{5E810542-1F27-499D-9937-6FC3F76EDBE7}']"
+              s:id="{0E34E9C0-C99C-4501-B0B5-86C397EAB758}"
+              s:par="Teams Title=Latest%20teams%20registered%20to%20Hackathon%202020&amp;Teams Folder=%7BD0CA9063-241D-4B23-B942-67439C03D85E%7D"
+              s:ph="main" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20170212T144905Z
+    - ID: "2d0a26bb-8c8d-48ca-bb1f-e76461e6c239"
+      Hint: Teams Title
+      Value: Latest teams registered to Hackathon 2020
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: 
     - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
       Hint: Navigation Title
       Value: Home
+    - ID: "be23b3e2-d583-428c-afdf-2eb54cec82ca"
+      Hint: Teams Folder
+      Value: "{D0CA9063-241D-4B23-B942-67439C03D85E}"

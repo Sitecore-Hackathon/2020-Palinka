@@ -2,7 +2,7 @@
 ID: "8390fd2e-a547-4721-835c-fae5d99003cb"
 Parent: "951db760-fd07-4e90-865a-89f0273256bd"
 Template: "c59cda37-98cc-47c0-93b9-4cd21317b3ea"
-Path: /sitecore/content/Hackathon/Home/Hackathon 2020/Teams
+Path: /sitecore/content/Hackathon/Home/Hackathons/Hackathon 2020/Teams
 DB: master
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"

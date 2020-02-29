@@ -1,0 +1,21 @@
+﻿---
+ID: "211f419f-edb1-4b7e-ac42-f8700f9b6693"
+Parent: "34d64177-4edd-4f21-a521-dd1ed9cc750e"
+Template: "b5355668-ff81-4cdd-879c-04dd0a3223ef"
+Path: /sitecore/content/Hackathon/Home/Hackathons/Hackathon 2019
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T213217Z
+    - ID: "8927c543-e28b-44b9-ad06-dffbb51a471d"
+      Hint: Navigation Title
+      Value: Hackathon 2019

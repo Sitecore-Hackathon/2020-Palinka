@@ -23,6 +23,7 @@
 
         public struct TeamFolderReference
         {
+            public const string TemplateId = "{4418F0BB-82DA-45FC-BB77-9C1E9527984C}";
             public const string TeamsTitle = "{2D0A26BB-8C8D-48CA-BB1F-E76461E6C239}";
             public const string TeamsFolder = "{BE23B3E2-D583-428C-AFDF-2EB54CEC82CA}";
         }
@@ -33,6 +34,12 @@
             public const string EndDateFieldId = "{CDD475DD-B36C-4341-A785-095B78968DAF}";
             public const string TargetFieldId = "{6A9EBCF2-CDFA-43F9-B57C-A6293742ECE2}";
             public const string EventDateFieldId = "{E83C71EB-3485-49AB-B21F-3B50AD5A2B37}";
+
+            public const string SendNotificationFieldId = "{4D3F67AA-FEA5-4221-AECF-AAAECEF22BCD}";
+            public const string EmailFromFieldId = "{9C85322A-C8AB-4890-A7A8-8ED215B9AE8E}";
+            public const string EmailToFieldId = "{CB857842-297D-4F62-87DF-60AF7B19A2F9}";
+            public const string EmailSubjectFieldId = "{2A18B399-0385-483C-A3EB-E6DBE65DA75F}";
+            public const string EmailMessageFieldId = "{E0EA164E-C4B3-4953-B384-E11DE449A86E}";
         }
     }
 }

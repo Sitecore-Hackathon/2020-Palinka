@@ -5,12 +5,18 @@ Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
 Path: /sitecore/layout/renderings/Feature/Teams/Recent Teams
 DB: master
 SharedFields:
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: 
 - ID: "1c0af338-70a8-455f-8366-173135e03be6"
   Hint: Placeholder
   Value: main
+- ID: "94069f66-609c-48b0-8281-521c30fb269d"
+  Hint: Open Properties after Add
+  Value: 1
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: Latest
+  Value: Recent
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: Hackathon.Feature.Teams.Controllers.TeamsController, Hackathon.Feature.Teams

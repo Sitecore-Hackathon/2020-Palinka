@@ -58,7 +58,7 @@
                 if (repository != null)
                 {
                     var settings = repository.GetSubmitionSettings();
-                    if (settings.TargetFolder == null)
+                    if (settings == null || settings.TargetFolder == null)
                     {
                         Log.Warn($"Team submition is not configured.", this);
                         return false;

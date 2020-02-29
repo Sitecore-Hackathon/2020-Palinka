@@ -98,6 +98,19 @@
             return this.contentRepository.GetItem<ISubmissionSettings>(new Glass.Mapper.Sc.GetItemByPathOptions(path));
         }
 
+        public bool Exists(Guid parentId, string teamName)
+        {
+            var masterDb = Sitecore.Configuration.Factory.GetDatabase("master");
+            var parentItem = masterDb.GetItem(new ID(parentId));
+            if (parentItem == null)
+            {
+                throw new InvalidOperationException("Target folder is not found!");
+            }
+
+            string itemName = ItemUtil.ProposeValidItemName(teamName);
+            return parentItem.Children[itemName] != null;
+        }
+
         public ITeam Create(Guid parentId, string teamName, string country, string email, List<TeamMember> members)
         {
             var masterDb = Sitecore.Configuration.Factory.GetDatabase("master");

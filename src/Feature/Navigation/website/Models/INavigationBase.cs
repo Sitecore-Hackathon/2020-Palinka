@@ -11,6 +11,8 @@
 
         string PageUrl { get; set; }
 
+        bool HasUrl { get; set; }
+
         IEnumerable<INavigationBase> SubPages { get; set; }
     }
 }

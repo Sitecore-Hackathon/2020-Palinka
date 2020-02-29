@@ -8,7 +8,9 @@ SharedFields:
 - ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"
   Hint: Validations
   Type: Treelist
-  Value: "{83E96D09-11C8-4132-8A8A-76D8DB8208D6}"
+  Value: |
+    {83E96D09-11C8-4132-8A8A-76D8DB8208D6}
+    {1C80B02A-8427-4CD2-B7F9-BD51C6C1F334}
 - ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
   Hint: Label Css Class
   Value: span2

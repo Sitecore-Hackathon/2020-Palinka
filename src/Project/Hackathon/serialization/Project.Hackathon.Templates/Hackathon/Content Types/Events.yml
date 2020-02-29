@@ -1,23 +1,22 @@
 ﻿---
-ID: "53813c88-9ab8-40cd-923b-358c9e79b1f9"
-Parent: "0856f26c-2706-4eae-8607-a5783116e131"
+ID: "8a530d82-4ec4-400b-8d3e-024f7e847f3b"
+Parent: "e9bb794a-b514-4ff5-8386-008fda7f7f66"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Hackathon/HomePage
+Path: /sitecore/templates/Project/Hackathon/Content Types/Events
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Network/16x16/home.png
+  Value: People/16x16/masks.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: |
     {1930BBEB-7805-471A-A3BE-4858AC7CF696}
     {2D1AFC5C-44FF-4CF8-AA00-93F855EB7B8A}
-    {4418F0BB-82DA-45FC-BB77-9C1E9527984C}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{C1F86619-50DD-4B55-8F21-E8A218D6220D}"
+  Value: "{A6E3FCFB-8022-4884-A689-82703354E06B}"
 Languages:
 - Language: en
   Versions:
@@ -25,4 +24,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T083512Z
+      Value: 20200229T212916Z
