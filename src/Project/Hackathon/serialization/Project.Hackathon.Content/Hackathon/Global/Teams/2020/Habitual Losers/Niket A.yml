@@ -1,0 +1,30 @@
+﻿---
+ID: "88d710d7-74cd-4202-a758-11cc1a1e2e62"
+Parent: "5cd1d925-b791-424c-9497-c70a7b067687"
+Template: "3b6bce5f-c144-42b0-81de-18c882db72f3"
+Path: /sitecore/content/Hackathon/Global/Teams/2020/Habitual Losers/Niket A
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T121653Z
+    - ID: "40fbda9d-9e22-420e-8949-7088c303f243"
+      Hint: Last Name
+      Value: A
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6ae5cb90-d331-43d0-a91a-c4421e0e7425"
+      Hint: First Name
+      Value: Niket
+    - ID: "7a833513-bdd1-4562-b9f0-acc827b3fdb0"
+      Hint: LinkedIn
+      Value: "https://www.linkedin.com/in/niketashesh/"
+    - ID: "eaa24dc6-6986-42eb-8c16-48a4477cfe8c"
+      Hint: Twitter
+      Value: "https://twitter.com/niketashesh"

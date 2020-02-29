@@ -1,0 +1,18 @@
+﻿---
+ID: "8c8597a7-97fd-4346-8523-aae318d49948"
+Parent: "3b6bce5f-c144-42b0-81de-18c882db72f3"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Teams/Team Member/Socials
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T120214Z

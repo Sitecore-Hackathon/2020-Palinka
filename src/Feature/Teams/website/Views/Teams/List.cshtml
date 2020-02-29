@@ -1,0 +1,15 @@
+@using Glass.Mapper.Sc.Web.Mvc
+@model Hackathon.Feature.Teams.Models.IFooterNavigation
+
+<p>
+    @Html.Glass().Editable(t => t.CopyrightText)
+</p>
+
+@if (Model.Links.Any())
+{
+    foreach (var link in Model.Links)
+    {
+        <spen> | </spen>
+        @Html.Glass().RenderLink(link, t => t.Link, isEditable: true)
+    }
+}
