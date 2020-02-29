@@ -1,0 +1,18 @@
+﻿---
+ID: "4ce49085-6506-476d-943a-bece6bde8a31"
+Parent: "a32de60d-8564-4326-8236-5af25028f7aa"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Judge/Judge/Judge Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T115836Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
