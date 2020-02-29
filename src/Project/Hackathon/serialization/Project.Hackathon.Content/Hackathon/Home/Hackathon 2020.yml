@@ -9,6 +9,23 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7C28686B-AB49-40C6-BA35-66242CD50980}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{0F2E5CA0-6371-48D7-AFA8-5CD41DF9EA3F}"
+              s:par=""
+              s:ph="main" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T084439Z
@@ -30,3 +47,9 @@ Languages:
       Hint: Sitecore Judges
       Type: Multilist
       Value: "{2C215EAD-66CE-4A63-84F4-C36C296FCD03}"
+    - ID: "cd9e4832-41f7-4044-b859-afa3855efbc0"
+      Hint: Categories
+      Type: Multilist
+      Value: |
+        {DB0EE32F-964C-40E3-9367-6F68A3DEA40E}
+        {F99BDAC0-EA83-4396-A0B5-2F82C95C3B65}

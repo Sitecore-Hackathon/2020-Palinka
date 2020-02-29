@@ -22,3 +22,6 @@ Languages:
     - ID: "47066361-2e99-429e-93f7-5f2cd6c9fd73"
       Hint: Country
       Value: USA, India, Ecuador
+    - ID: "5ebb2b1f-274c-4e72-94fe-9696e3a108c8"
+      Hint: Category
+      Value: "{DB0EE32F-964C-40E3-9367-6F68A3DEA40E}"
