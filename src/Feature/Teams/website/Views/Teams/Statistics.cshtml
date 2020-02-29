@@ -1,24 +1,6 @@
 @using Glass.Mapper.Sc.Web.Mvc
-@model Hackathon.Feature.Teams.ViewModels.TopNavigation
+@model Hackathon.Feature.Teams.ViewModels.Statistics
 
-<a href="/">
-    Home page
-</a>
-
-<ul>
-    @foreach (var page in Model.Pages)
-    {
-    <li>
-        <a href="@page.PageUrl">@page.NavigationTitle</a>
-        @if (Model.HasSubPages(page))
-        {<ul>
-            @foreach (var subpage in Model.GetSubPages(page))
-        {
-            <li>
-                <a href="@subpage.PageUrl">@subpage.NavigationTitle</a>
-            </li>
-        }
-        </ul>}
-    </li>
-    }
-</ul>
+<div class="row">
+    @Html.Raw(Model.Text)
+</div>

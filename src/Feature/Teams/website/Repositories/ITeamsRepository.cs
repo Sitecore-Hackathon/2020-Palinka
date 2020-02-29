@@ -13,5 +13,7 @@ namespace Hackathon.Feature.Teams.Repositories
         IEnumerable<ITeam> GetLatest(ITeamsFolder folder, int count);
 
         ISubmissionSettings GetSubmitionSettings();
+
+        List<string> GetCountries(IEnumerable<ITeam> teams);
     }
 }

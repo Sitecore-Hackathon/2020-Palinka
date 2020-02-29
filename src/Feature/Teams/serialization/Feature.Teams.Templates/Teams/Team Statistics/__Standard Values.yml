@@ -1,0 +1,26 @@
+﻿---
+ID: "6843e5c0-e1e1-41f0-8a4d-742b6db370bb"
+Parent: "06fc45db-ba5f-4aaa-8406-38e796dad130"
+Template: "06fc45db-ba5f-4aaa-8406-38e796dad130"
+Path: /sitecore/templates/Feature/Teams/Team Statistics/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T204440Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "99d2d89d-0924-40d4-b9ae-b3f943606fd2"
+      Hint: Text
+      Value: |
+        <h4>The latest Hackathon statistics</h4>
+        <ul>
+            <li>#TEAMS_COUNT# Teams participating</li>
+            <li>Entries from over #COUNTRY_COUNT#&nbsp;countries</li>
+        </ul>

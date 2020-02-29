@@ -60,6 +60,31 @@
             return GetAll(folder);
         }
 
+        public List<string> GetCountries(IEnumerable<ITeam> teams)
+        {
+            if (teams == null)
+            {
+                return new List<string>();
+            }
+
+            List<string> allCountries = new List<string>();
+            foreach (var team in teams)
+            {
+                if (!string.IsNullOrEmpty(team.Country))
+                {
+                    var countries = team.Country.Split(',')
+                        .Select(t => t.Trim()).ToArray();
+
+                    if (countries.Any())
+                    {
+                        allCountries.AddRange(countries);
+                    }
+                }
+            }
+
+            return allCountries.Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+        }
+
         public IEnumerable<ITeam> GetLatest(string folderPath, int count)
         {
             return GetAll(folderPath)
