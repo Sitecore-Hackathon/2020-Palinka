@@ -1,0 +1,20 @@
+﻿---
+ID: "5cd1d925-b791-424c-9497-c70a7b067687"
+Parent: "d0ca9063-241d-4b23-b942-67439c03d85e"
+Template: "ff34c006-bcd7-49cf-9b17-d72917f4e18b"
+Path: /sitecore/content/Hackathon/Global/Teams/2020/Habitual Losers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T121615Z
+    - ID: "2cd222e4-acc3-470c-847e-80a58a3c560e"
+      Hint: Team Name
+      Value: Habitual Losers
+    - ID: "47066361-2e99-429e-93f7-5f2cd6c9fd73"
+      Hint: Country
+      Value: USA, India, Ecuador
