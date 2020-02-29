@@ -1,0 +1,22 @@
+﻿---
+ID: "57c135a9-331e-47d8-a59b-b940dc0d4434"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: /sitecore/Forms/Submission
+DB: master
+SharedFields:
+- ID: "9eb86f19-2e5d-48db-9795-0ee4868eff11"
+  Hint: Is Ajax
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T152209Z
