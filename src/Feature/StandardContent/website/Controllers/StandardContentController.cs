@@ -10,7 +10,6 @@ namespace Hackathon.Feature.StandardContent.Controllers
     {
         private readonly IContextRepository contextRepository;
 
-
         private readonly IRenderingRepository renderingRepository;
 
         public StandardContentController(IContextRepository contextRepository, IRenderingRepository renderingRepository)
