@@ -1,0 +1,14 @@
+﻿---
+ID: "700b5912-35a6-489b-96c2-42cc9bb8d7b3"
+Parent: "1837a8df-8390-4b30-93d5-34a51c3131db"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/StandardContent
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T082146Z
