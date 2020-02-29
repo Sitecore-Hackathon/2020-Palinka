@@ -1,3 +1,4 @@
+@using Glass.Mapper.Sc.Web.Mvc
 @model Hackathon.Feature.StandardContent.Models.IImage
 
-@RenderImage(model, x => x.Image, isEditable: true)
+@Html.Glass().RenderImage(Model, x => x.Image, isEditable: true)

@@ -1,3 +1,4 @@
+@using Glass.Mapper.Sc.Web.Mvc
 @model Hackathon.Feature.StandardContent.Models.IText
 
-@Editable(x => x.Text)
+@Html.Glass().Editable(x => x.Text)

@@ -1,4 +1,4 @@
-<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -62,6 +62,7 @@
     <None Include="AssemblyLists\Sitecore.XConnect.Platform.MarketingAutomationEngine.Assemblies 9.3.0 rev. 003498.csv" />
     <None Include="AssemblyLists\Sitecore.XConnect.Platform.ProcessingEngine.Assemblies 9.3.0 rev. 003498.csv" />
     <None Include="AssemblyLists\Sitecore.XConnect.Platform.Web.Assemblies 9.3.0 rev. 003498.csv" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>
