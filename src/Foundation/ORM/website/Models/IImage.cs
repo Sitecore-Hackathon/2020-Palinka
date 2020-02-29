@@ -1,7 +1,6 @@
 using Glass.Mapper.Sc.Fields;
-using Hackathon.Foundation.ORM.Models;
 
-namespace Hackathon.Feature.StandardContent.Models
+namespace Hackathon.Foundation.ORM.Models
 {
     public interface IImage : IGlassBase
     {

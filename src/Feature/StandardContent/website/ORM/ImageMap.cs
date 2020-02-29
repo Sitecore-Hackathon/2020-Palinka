@@ -1,5 +1,5 @@
 ﻿using Glass.Mapper.Sc.Maps;
-using Hackathon.Feature.StandardContent.Models;
+using Hackathon.Foundation.ORM.Models;
 
 namespace Hackathon.Feature.StandardContent.ORM
 {
