@@ -141,11 +141,12 @@
             string itemName = ItemUtil.ProposeValidItemName(teamName);
             var teamItem = parent.Add(itemName, new TemplateID(new ID(Constants.Team.TemplateId)));
 
-            var teamModel = contentRepository.GetItem<ITeam>(new Glass.Mapper.Sc.GetItemByItemOptions(teamItem));
-            teamModel.TeamName = teamName;
-            teamModel.Country = country;
-            teamModel.Email = email;
-            contentRepository.SaveItem(new Glass.Mapper.Sc.SaveOptions(teamModel));
+            using (new EditContext(teamItem))
+            {
+                teamItem[new ID(Constants.Team.TeamNameFieldId)] = teamName;
+                teamItem[new ID(Constants.Team.CountryFieldId)] = country;
+                teamItem[new ID(Constants.Team.EmailFieldId)] = email;
+            }
 
             return teamItem;
         }
@@ -155,13 +156,13 @@
             string memberItemName = $"Team member {index}";
             var memberItem = parent.Add(memberItemName, new TemplateID(new ID(Constants.TeamMember.TemplateId)));
 
-            var model = contentRepository.GetItem<ITeamMember>(new Glass.Mapper.Sc.GetItemByItemOptions(memberItem));
-            model.FirstName = member.FirstName;
-            model.LastName = member.LastName;
-            model.Twitter = member.Twitter;
-            model.LinkedIn = member.LinkedIn;
-
-            contentRepository.SaveItem(new Glass.Mapper.Sc.SaveOptions(model));
+            using (new EditContext(memberItem))
+            {
+                memberItem[new ID(Constants.TeamMember.FirstName)] = member.FirstName;
+                memberItem[new ID(Constants.TeamMember.LastName)] = member.LastName;
+                memberItem[new ID(Constants.TeamMember.Twitter)] = member.FirstName;
+                memberItem[new ID(Constants.TeamMember.LinkedIn)] = member.LinkedIn;
+            }
         }
 
         public IEnumerable<ITeamsFolder> GetAllTeamsFolder()
