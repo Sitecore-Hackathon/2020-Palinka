@@ -160,7 +160,7 @@
             {
                 memberItem[new ID(Constants.TeamMember.FirstName)] = member.FirstName;
                 memberItem[new ID(Constants.TeamMember.LastName)] = member.LastName;
-                memberItem[new ID(Constants.TeamMember.Twitter)] = member.FirstName;
+                memberItem[new ID(Constants.TeamMember.Twitter)] = member.Twitter;
                 memberItem[new ID(Constants.TeamMember.LinkedIn)] = member.LinkedIn;
             }
         }
