@@ -16,6 +16,8 @@ This is the documentation for Team Pálinka submission
 
 Please install the related [package](sc.package/HackathonSite-1.0.zip) to a Clean Sitecore Instance. 
 Use Package Installation wizard
+Choose the Merge / Merge option in case of conflicts.
+Publish the full website.
 The package contains every necessary files and sitecore items.
 
 ### Module List
