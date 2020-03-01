@@ -5,7 +5,10 @@
 Welcome to Sitecore Hackathon 2020.
 
 This is the documentation for Team Pálinka submission
+## Video
 
+[Part 1](https://www.youtube.com/watch?v=-jaVJuQLhsM) 
+[Part 2](https://www.youtube.com/watch?v=HkIvNRiY4fs) 
 
 ## Sitecore Hackathon Site
 
